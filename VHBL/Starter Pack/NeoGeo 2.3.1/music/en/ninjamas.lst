@@ -1,0 +1,42 @@
+$title=Ninja Master' haou-ninpou-chou
+$samplerate=22050
+$pre=fc
+$stop=03
+$start
+02 Neo Geo Logo
+d0 Murderous Intent, Invisible Chain (Opening)
+d1 How to Play
+d2 Player Select
+c0 Yasha Power (Sasuke)
+c1 Mad Nightmare (Kamui)
+c2 Reverie of Might (Raiga)
+c3 Drizzle (Tenho)
+d3 Finish Demo
+d4 Irruption
+c4 Blank Minute (Karasu)
+c5 Crashed Reality (Houoh)
+c6 Sexiness (Natsume)
+c7 Spray from Ryuga Antro (Goemon)
+c8 Stound (Unzen)
+c9 Sakura in Full Bloom (Kasumi)
+ca Amphichrome (Ranmaru)
+cb Illume Decaying Dream (Nobunaga)
+e0 Sasuke's Ending
+e1 Kamui's Ending
+e2 Raiga's Ending
+e3 Tenho's Ending
+e4 Karasu's Ending
+e5 Houoh's Ending
+e6 Natsume's Ending
+e7 Goemon's Ending
+e8 Unzen's Ending
+e9 Kasumi's Ending
+ea Ranmaru's Ending
+eb Nobunaga's Ending
+d7 Back of My Mind (End Roll)
+d5 Continue
+d6 Game Over
+d8 Ranking
+d9 Disappearing Shadow (Memory Save & Load)
+ee Old Memory (Theme of Ninja Masters)
+$end

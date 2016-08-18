@@ -1,0 +1,26 @@
+$title=Pop'n Bounce
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+20 Neo Geo Logo
+22 Attract Mode
+2d Start
+2e Stage (Map)
+23 Land Area (Stage 1)
+2c Stage Clear !
+24 Sea Area (Stage 2)
+27 Attack Mode
+25 Space Area (Stage 3)
+2a Warning BGM
+29 Continue ?
+22 Variety Area (Stage 4)
+28 Name Entry
+2b Ending
+2d Challenger Appeared
+22 VS Mode Theme 1
+24 VS Mode Theme 2
+25 VS Mode Theme 3
+2c Result
+26 Unused
+$end

@@ -1,0 +1,32 @@
+$title=Fatal Fury Special
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo-Geo Logo
+46 Fatal Fury Special (Title)
+3d Level Up 2 (Level Select)
+23 Player Select
+24 Versus
+30 Kurikinton -US Stage I- (Terry Bogard)
+31 Pasta -Italy Stage- (Andy Bogard)
+32 New poem in the South Thai Land (Joe Higashi)
+25 Winning Demo
+33 Taa-kun & Kita-pii -Australian Stage- (Big Bear)
+34 Jubei -Nippon Stage I- (Jubei Yamada)
+35 Enryuushin -Nippon Stage II- (Mai Shiranui)
+36 Bangyago Ho-ho -Hong Kong Stage- (Cheng Shin Zan)
+37 Let's Go To Seoul! -Korean Stage- (Kim Kaphwan)
+42 Duck Dub Dub (Et tu Duck) -US Stage III- (Tung Fu Rue)
+44 How's 4000 year history in China -Chinese Stage- (Tung Fu Rue)
+38 London March -England Stage- (Billy Kane)
+39 Kink Konk -US Stage II- (Axel Hawk)
+3a Working Bullfighter -Spainish Stage- (Lawrence Blood)
+43 Soy Sause to Geese -US Stage IV- (Geese Howard)
+3b Requiem in D minor K.626 Dies Irae -Germany Stage- (Wolfgang Krauser)
+45 Ryuuko no Ken Ver.230000000.0 -Nippon Stage III- (Ryo Sakazaki)
+48 More Mission (Ending)
+2e Continue
+2d Game Over
+2f Name Entry
+$end

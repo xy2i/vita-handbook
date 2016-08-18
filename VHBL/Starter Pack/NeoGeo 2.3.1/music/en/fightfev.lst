@@ -1,0 +1,33 @@
+$title=Fight Fever
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+25 Attract Mode
+7f Coin
+2d How to Play
+27 Player Select
+2b World Map
+23 Han Baedal (Korea)
+32 Miyuki (Japan)
+31 Rophen Heimer (German)
+29 Continue ?
+21 Golrio (Brasil) 
+33 Chin Tao (China) 
+30 Kim Hoon (Mexico)
+22 Nick Commando (U.S.A)
+28 Bonus Game
+35 Magic Dunker (U.S.A)
+24 Master Taekuk (Korea)
+37 Won
+2f Taekwon Champion
+36 Congratulation
+34 Karate Kenji (Japan)
+2a Name Entry
+37 Completed
+26 Credits
+2c Game Over
+2e Unused
+41 Unused Ver.2
+$end

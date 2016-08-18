@@ -1,0 +1,34 @@
+$title=NAM-1975
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+30 Theme of NAM (Title Demo)
+28 Sub Theme (Select)
+31 Blood Mission (Introduction)
+27 Prologue of Soldiers (Area 1)
+37 Shootout (Area 1 Boss)
+23 Hammer Head (Human Boss)
+39 Interim Report (Intermission)
+35 Street Battle (Area 2)
+33 Departure!! (Area 3, Demo)
+2a Aerial Combat (Area 3)
+2b Bombardment Aircraft (Demo)
+2c Airfield (Area 4)
+24 Mechanical Wars (Mechanical Boss)
+3a Military Arsenal (Area 5)
+38 Shivering (Command Nancy, Demo)
+32 Raid (Assault Area, Demo 1)
+2e Raid (Assault Area, Demo 2)
+29 Raid (Assault Area)
+2f Night War (Area 6)
+25 Laser Weapon (Ultimate Weapn)
+3e Good Luck (Victorious Ending)
+3f Sight in the Memory -Epilogue of Soldiers - (Staff Credit)
+3d Game Over
+36 Street Battle (Area 2) - w/o intro
+2d Bombardment Aircraft (Demo) - w/o intro
+22 Mechanical Wars (Mechanical Boss) - w/o intro
+26 Laser Weapon (Ultimate Weapn) - w/o intro
+$end

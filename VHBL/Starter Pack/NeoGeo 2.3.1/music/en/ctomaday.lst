@@ -1,0 +1,25 @@
+$title=Captain Tomaday
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 NeoGeo Logo
+21 Attract Mode 1
+2f Attract Mode 2
+2a How to Play
+22 Stage 1 - Speed Limit 100 kph
+25 Stage 1 - Boss 
+22 Stage 2 - Mind your Head.
+23 Stage 3 - Danger Deep Water. - Caution.
+26 Stage 2, 3 - Boss
+23 Stage 4 - Out of Order.
+24 Stage 5 - No U Turn.
+27 Stage 5 - Boss 
+28 Result
+2e Ending
+29 Credits
+2d Name Entry
+2c Game Over
+30 Unused 1
+2b Unused 2
+$end

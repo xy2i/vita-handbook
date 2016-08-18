@@ -1,0 +1,31 @@
+$title=Ragnagrd
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+33 Fighting God (Opening)
+24 General (Character Select)
+25 General (Character Select)
+2e Dark Fire (Susanoo)
+31 Castle in Fire (Gokuu)
+30 Ship in the Blue Sky (Benten)
+2f Dancing Fuuraijin (Chichi-Nene)
+2d Spiritual Tombstone (Igret)
+21 Honor of Demon (Syuten-dozi)
+2c Water Garden (Seena)
+28 Amorous Codger (Biten)
+2a Mafuuin (Behemoth)
+23 Glamorous Feast (Iris)
+29 Take a Break (Victory)
+34 Trial (Arc Orion, intro)
+32 Tree of Spirit (Arc Orion)
+35 Evolution (Arc Orion, end)
+2b Castle of the Different World (Lucifer)
+36 Happy End..? (Ending 1)
+37 Whobbling Ending (Ending 2)
+38 Are You Kidding? (Ending 3)
+39 All Star Cast (Staff Credits)
+26 Fighting God Again (Continue)
+27 Breakdown (Game Over)
+$end

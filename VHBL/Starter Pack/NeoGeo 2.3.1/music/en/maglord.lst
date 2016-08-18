@@ -1,0 +1,24 @@
+$title=Magician Lord
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+13 Opening
+14 Stage Start
+10 Magician Lord (Stage 1)
+16 Dark Duel (Small Boss)
+15 Gal Agiese
+11 Legend of Guardian God (Boss Stage)
+04 Stage Clear
+12 Surrender!! (Stage 2)
+1c Flying Killers (Stage 3)
+05 The Castle of Zephyrus (Stage 4)
+08 Magician's Dream (Stage 5)
+1b Rebirth of Az Athos (Last Boss)
+1a Epilogue
+18 The Great Gates of Granada (Ending)
+19 Unfinished Man (Name Entry)
+07 Ranking
+06 Game Over
+$end

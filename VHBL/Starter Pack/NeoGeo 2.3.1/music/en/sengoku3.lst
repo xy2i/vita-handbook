@@ -1,0 +1,27 @@
+$title=Sengoku 3
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+2a Today for Me, Tomorrow for Thee (Opening Demo 1)
+2b Self Introduction (Opening Demo 2)
+29 Nothing Stake, Nothing Draw (Player Select)
+2d Long Way Off (Map)
+21 Road of Ashura (China)
+22 In High Spirits (Japan)
+23 Rome was not Built in a Day (Italy)
+27 Near Thing (Normal Boss)
+2c Bad Money Drives out Good (Stage Clear)
+25 Only One Chance (Brazil)
+26 Get Tired of Life (USA)
+2e Sour Grapes (Byakki, Okuni Demo)
+2f Freedom from Earthly Passion (Byakki, Okuni Demo 2)
+30 Swearing Fidelity (Byakki, Okuni Demo 3)
+24 Trails and Tribulations (Kyoto)
+31 Down the Line Pursual (Demo before the Final)
+28 Little Strokes Fell Great Oaks (Final Boss)
+32 Peaceful (Ending Demo)
+33 Thick and Dense (Credits Roll)
+4f Ruin (Game Over)
+$end

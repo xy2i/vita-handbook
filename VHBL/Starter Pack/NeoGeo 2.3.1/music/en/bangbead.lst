@@ -1,0 +1,34 @@
+$title=Bang Bead
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+21 Attract Mode 1
+22 Attract Mode 2
+23 How to Play
+24 Player Select
+3b VS Theme
+27 Theme 1 (Mr.Justice - Round 1) 
+26 Theme 1 (Mr.Justice - Round 2) 
+25 Theme 1 (Mr.Justice - Round 3) 
+37 Challenger Appeared
+2a Theme 2 (Chinta, Siren - Round 1)
+29 Theme 2 (Chinta, Siren - Round 2)
+28 Theme 2 (Chinta, Siren - Round 3)
+38 Win & Lose
+2d Theme 3 (Hiromu, Bloody Wolf - Round 1)
+2c Theme 3 (Hiromu, Bloody Wolf - Round 2)
+2b Theme 3 (Hiromu, Bloody Wolf - Round 3)
+32 Continue ?
+30 Theme 4 (Simon, Surya - Round 1)
+2f Theme 4 (Simon, Surya - Round 2)
+2e Theme 4 (Simon, Surya - Round 3)
+33 Completed
+34 Ending (Chinta)
+35 Credits
+31 Name Entry
+3a Game Over
+36 Unused Music 1
+39 Unused Music 2
+$end

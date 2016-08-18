@@ -1,0 +1,25 @@
+$title=Last Resort
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+37 Last Resort Title
+2c Jack to The Metro (Stage 1)
+40 Vice (Boss 1)
+45 Stage Clear
+2b The Ruins of Metro (Stage 2)
+25 Tyrannical (Boss 2)
+32 Sonar (Stage 3)
+41 Cold Machine (Boss 3)
+33 The Melting Point (Stage 4)
+42 Dusky (Boss 4)
+34 Don't Touch Me Baby (Stage 5-1)
+43 Fear (Stage 5-2)
+44 Legend of King (Boss 5)
+46 The Sunset Sky Part II (Last Stage Clear - Ending)
+35 The Sunset Sky Part II -short ver.- (Ending)
+36 continue
+39 Game Over
+55 Flower Dancing (Ranking)
+$end

@@ -1,0 +1,36 @@
+$title=Power Spikes II
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+20 Neo Geo Logo
+22 Attract Mode
+23 League Select
+27 Game Start
+30 Theme 1 (1st and 2nd Match)
+24 Challenger Appeared
+33 Theme 2 (3rd and 4th Match)
+2d Continue ?
+36 Theme 3 (Final Match)
+2a You Won
+39 Congratulations !
+3a Credits
+26 Game Start
+2e Theme 1 (1st and 2nd Match)
+31 Theme 2 (3rd and 4th Match)
+2b Continue ?
+34 Theme 3 (Final Match)
+28 You Won
+37 Congratulations !
+3a Credits
+26 Game Start
+2e Theme 1 (1st and 2nd Match)
+32 Theme 2 (3rd and 4th Match)
+2c Continue ?
+35 Theme 3 (Final Match)
+29 You Won
+38 Congratulations !
+3a Credits
+3b Unused 1
+3c Unused 2
+$end

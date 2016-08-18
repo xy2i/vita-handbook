@@ -1,0 +1,25 @@
+$title=Ganryu
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+f4 Opening 1
+f5 Opening 2
+f6 Character Select
+26 Episode 1 - Avenger, Destruction
+f0 Yasha-hime (Boss 1)
+23 Episode 2 - Assassin, Darker
+f1 Kikunojo (Boss 2)
+24 Episode 3 - Ambition, Dark Priest
+25 Episode 4 - Evilgod
+22 Boss 3 & 4
+21 Episode 5 - Ganryujima War, Holyclan
+27 Chaos (Boss 5)
+f3 Credits
+e6 Game Over
+2a Unused 1
+28 Unused 1 (Long)
+f2 Unused 2
+29 Unused 3
+$end

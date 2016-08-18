@@ -1,0 +1,28 @@
+$title=Blazing Star
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+2f Blazing Star (Opening)
+29 Go Ahead (Ranking)
+2b Return (Select)
+2a Promote (Name Entry)
+20 Apocalypse (Stage 1a)
+2c Rush (Stage 1b)
+21 Navigation (Stage 2)
+22 Ascenseur (Stage 3)
+23 Urgent (Stage 4)
+2d Surprise (Stage 5)
+32 Last Target (Stage 6)
+24 Pressing (Stage 7)
+2e Getrid (Boss)
+25 The Matrix (Last Boss 1)
+33 Trial (Last Boss 2)
+31 Endless (Ending 1)
+30 Complete (Ending 2)
+28 Gameover (Game Over)
+26 Accomplish (Stage Clear)
+27 Vacant Mind (Continue -Unused-)
+34 Various (Intermission -Unused-)
+$end

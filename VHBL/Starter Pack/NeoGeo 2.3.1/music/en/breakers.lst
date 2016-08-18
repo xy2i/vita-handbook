@@ -1,0 +1,27 @@
+$title=Breakers
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 NeoGeo Logo
+21 Attract Mode
+7f Coin
+22 How to Play
+23 Character Select
+24 VS Theme
+28 Sho
+2e Pielle
+27 Challenger Appeared
+2a Condor
+2c Rila
+32 Continue ?
+2b Tia
+2d Alsion III
+26 Winner
+2f Maherl
+29 Dao-Long
+25 You Win
+30 Bai-Fu
+31 Ending
+33 Game Over
+$end

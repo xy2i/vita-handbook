@@ -1,0 +1,46 @@
+$title=Top Hunter
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+3f SNK Logo
+21 Pull the Lever of the Slot Machine.. (Title Screen)
+22 Talala la-la (How to Play)
+23 This Planet or That Planet? (Stage Select)
+42 Let's Get Started (Map Preview)
+24 I Love Forest (Planet of Forest, BGM 1, Main Theme)
+2a Losts in the Woods (Planet of Forest, BGM 2)
+28 Fresh Guy (Planet of Forest, BGM 3)
+4a Elite Solider, Forest (Planet of Forest, Mid Boss)
+40 Ease.. (Area Completed)
+2c The Sly (Planet of Forest, Boss)
+41 Ukky, Lucky (Stage Cleared)
+43 Go for the Perfect Game! (Bonus Stage)
+2d Cause the Wind (Planet of Wind, BGM 1, Main Theme)
+2e Ignite the Storm (Planet of Wind, BGM 2)
+2f Funny and Ropy Enemy (Planet of Wind, BGM 3)
+4b Elite Solider, Wind (Planet of Forest, Mid Boss)
+30 The Big Man (Planet of Wind, Boss)
+31 It's Getting Hot (Planet of Fire, BGM 1, Main Theme)
+32 Where's a Monster? (Planet of Fire, BGM 2)
+33 Happy Bat (Planet of Fire, BGM 3)
+4c Fire, Fire, Fire (Planet of Fire, Mid Boss)
+34 Fussy Kid (Planet of Fire, Boss)
+35 Sha-la-la (Planet of Fire, Theme)
+36 Make It Frozen (Planet of Ice, BGM 2)
+37 Elfin Snowman (Planet of Ice, BGM 3)
+4d I Hate the Cold (Planet of Ice, Mid Boss)
+38 Ohohoho Misty (Planet of Ice, Boss)
+3a Tatatata, Tata, Tataa (Space Battleship Stage Inro)
+39 Go! Captain Clapton (Space Battleship Stage Theme)
+3b Here It Comes (Space Battleship Stage, Boss Intro Demo)
+3c D, D, Dragon!! (Final Boss Dragon, "Captain Clapton")
+44 Congrats!! (Completed)
+45 Come to See Me in a Dream (Ending)
+3e Hardy Har Har (Game Over)
+25 I Love Forest (Planet of Forest, BGM 1, Main Theme)
+49 Go! Captain Clapton (Space Battleship Stage Theme)
+3d D, D, Dragon!! (Final Boss Dragon, "Captain Clapton")
+45 Come to See Me in a Dream (Ending)
+$end

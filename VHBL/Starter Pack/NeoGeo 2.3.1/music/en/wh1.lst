@@ -1,0 +1,42 @@
+$title=World Heroes
+$samplerate=22050
+$pre=fd
+$stop=03
+$start
+02 Neo Geo Logo
+17 Uchuuichi Budoukai (Universal Tournament) Now Opens (Opening)
+22 Player Select
+19 Begin
+04 Unrivaled Rekkozan (Theme of Hanzo)
+11 Wind and Flame (Theme of Fuuma)
+0b A Man Who Is Called Dragon (Theme of Dragon)
+0a Great Fighting Spirit (Theme of Janne)
+05 The Lord of the Continent (Theme of J.Carn)
+06 Power Wall (Theme of Muscle Power)
+10 Cyber General (Theme of Brocken)
+0c Wizard of Love (Theme of Rasputin)
+0f Loudness, Gone Gone (Death Match Mode)
+21 Stage Clear
+ef Go Go J.Ferry (Bonus Stage)
+ed Okiyama Sakichi (Doctor's Applause)
+ee The Strongest Man in The Universe (Gigas Appearing)
+12 Final Battle Over Earth (Theme of Gigas)
+16 The End of Outlaw Ninja (Hanzou's Ending)
+1b Gorgeous Days of an Everyday-Person (Fuuma's Ending)
+15 Go for a Hong Kong Movie Star! (Dragon's Ending)
+23 Sometime I'll Take My Prince (Janne's Ending)
+1e Tomato Squash (J.Carn's Ending)
+1d Icchan GENKIJIRUSHI (Muscle Power's Ending)
+1a Sophisticated Effector (Brocken's Ending)
+1c Tricky, Time Slider (Rasputin's Ending)
+13 The Final Station March (End Credits)
+0e Continue (Hanzo)
+0d Continue (Fuuma)
+07 Continue (Dragon)
+09 Continue (Janne)
+14 Continue (J.Carn)
+1f Continue (Muscle Power)
+08 Continue (Brocken)
+20 Continue (Rasputin)
+18 Game Over
+$end

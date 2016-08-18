@@ -1,0 +1,26 @@
+$title=Legend of Success Joe
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+32 Title
+22 Stage 1  Joe Yabuki vs. Mammoth Nishi (Kani'chi Nishi) 
+28 Stage Clear
+20 Stage 2  Joe Yabuki vs. Shohei Inagaki 
+30 Stage 3  Joe Yabuki vs. Wolf Kanagushi 
+29 Stage 4  Joe Yabuki vs. Toru Rikiishi 
+33 Stage 5  Joe Yabuki vs. Goromaki(ruffian) Gondou 
+34 Stage 6  Joe Yabuki vs. Tiger Ozaki 
+30 Stage 7  Joe Yabuki vs. Carlos Rivera 
+20 Stage 8  Joe Yabuki vs. Ryuhi Kin 
+22 Stage 9  Joe Yabuki vs. Harimao 
+29 Stage 10  Joe Yabuki vs. Hose Mendose 
+23 Credits Roll
+31 Continue
+27 Game Over
+25 Name Registry
+24 Credits Roll (w/o intro)
+26 Name Registry (w/o intro)
+21 Stage 2, 8 (reprise)
+$end

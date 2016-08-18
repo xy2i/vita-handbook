@@ -1,0 +1,26 @@
+$title=Andro Dunos
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+2f Title
+30 Take Off
+22 Stage 1 -The Moon-
+2c Boss 1 (Stage 1, 5)
+31 Stage Clear
+23 Stage 2 -Mechanized Unit-
+2b Boss 2 (Stage 2, 4)
+25 Stage 3 -Alien-
+2d Boss 3 (Stage 3, 6)
+24 Stage 4 -Caven-
+26 Stage 5 -Meteorite-
+28 Stage 6 -Secret Base-
+29 Stage 7 -Core-
+2e Boss 4 (Stage 7)
+2a Escape
+21 Credits
+32 Game Over
+33 Name Entry
+27 Unused
+$end

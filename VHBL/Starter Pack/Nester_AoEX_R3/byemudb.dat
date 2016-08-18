@@ -1,0 +1,42 @@
+;ROM文件CRC;MAP头;P/CROM;制式(P/N);游戏名字
+886e4e5f;12F0;2000;N;Xing Ji Zheng Ba (C)
+15577246;12F0;4000;N;Fan Kong Jing Ying (C)
+fd179087;C030;0808;N;Super 35-in-1 (6-in-1 VT5201) [p1]
+5e2496e6;8160;5000;N;Pegasus 5-in-1 (Golden Five)
+4306d1c3;8160;5000;N;Pegasus 5-in-1 (Golden Five)
+61ca959d;F100;4000;N;168-in-1 [p1][!]
+ede28540;6090;0408;N;Poker III 5-in-1 (Sachen) [!]
+d0f08b71;6190;0408;N;2-in-1 Cosmo Cop + Cyber Monster (Sachen) [!]
+7ec004cb;6190;0408;N;2-in-1 Tough Cop + Super Tough Cop (Sachen) [!]
+9746a10e;33C0;1020;N;洛克人X（以mapper195运行）
+05c2d499;72C0;2020;N;七龙珠外传(以mapper199运行)	
+30fb1c03;72C0;2020;N;龙珠Z2 激战弗利萨(以mapper199运行)		
+3d829a92;03C0;2020;N;英烈群侠传（以mapper192运行）	
+57713870;03C0;2020;N;幽灵行动（以mapper192运行）
+3da8803b;32C0;2020;N;天神之剑（以mapper195运行）
+ac48cbc5;72C0;2020;N;三国志2霸王的大陆外星加强版(以mapper199运行)
+d0f6cbcf;23C0;1020;N;Dai 2 Ji Super Robot Taisen (CHS)(以mapper194运行)
+166ebc0e;23C0;1020;N;第2次超级机器人大战 - 先锋卡通汉化(记忆修正版)(以mapper194运行)
+0eeadf21;32C0;2020;N;天使之翼2 - 外星科技汉化(lirdrepus转繁体版)(以mapper195运行)
+7e13935c;32C0;2020;N;天使之翼2 - 外星科技汉化(lirdrepus繁体版 KANOU转简体第二版)(以mapper195运行)
+f34a7189;32C0;2020;N;足球小将 - 外星科技汉化 修改版(以mapper195运行)
+ce659f06;32C0;2020;N;天使之翼2 - MS汉化(以mapper195运行)
+1c85941b;4300;4000;N;吞食天地3外星(暂时以MAPPER4运行)
+31c302fb;4300;2800;P;吞食天地2(屎王修正版)
+c0726da6;4300;2800;P;吞食天地2中文版
+8d392470;4300;2800;P;吞食天地2中文版
+b066c666;4300;2800;P;吞食天地2 - 未知(繁体中文BonnyXie修正版)
+ae4b13df;B000;0404;N;King Neptune's Adventure (USA) (Unl)
+6c538829;0000;0810;N;俄罗斯方块
+6eaee999;A240;2020;N;甲A
+7fbca3f4;f3b0;1010;N;赌神(这个游戏是mapper191)
+2986CDFF;4080;0404;N;棋王-TXC
+591f8471;2000;1010;N;Akira (Japan)
+85363aa1;1000;0810;N;Bigfoot (Europe)
+75d9b6b8;1000;0810;N;Bigfoot (USA)
+f6cf96b9;2000;0800;N;Classic Concentration (USA)
+6d66a7be;2000;0800;N;Hollywood Squares (USA)
+ff80a108;4000;0810;N;Hunt for Red October, The (USA) (Rev A)
+6e934409;4000;0810;N;Infiltrator (USA)
+4306d1c3;8160;5000;N;Pegasus 5 in 1 (Unknown) (Unl)
+f9d0fdf7;1000;0808;N;Peter Pan & The Pirates - The Revenge of Captain Hook (USA)

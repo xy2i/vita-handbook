@@ -1,0 +1,24 @@
+$title=Flip Shot
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+26 Attract Mode
+21 Title Screen
+28 How to Play
+22 Player Select
+24 Round 1
+25 Round 2
+2e Lose
+29 Continue
+26 Round 3
+27 Final Round
+2d Win
+23 Winner
+2b Ending
+28 Name Entry
+2a Game Over
+2c Unused 1
+2f Unused 2
+$end

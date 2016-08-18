@@ -1,0 +1,54 @@
+$title=Karnov's Revenge
+$samplerate=22050
+$pre=00
+$stop=03
+$start
+32 Kalnov's Revenge (Attract Mode)
+02 Fighter's History Dynamite (Title)
+03 Battle Again (Player Select)
+0a Ray
+17 Ray (Faster)
+04 Battle End (Not on CD)
+0b Feilin's Theme
+18 Feilin's Theme (loop)
+0c Ryoko's Theme
+19 Ryoko's Theme (loop)
+0d Matlok's Theme
+1a Matlok's Theme (loop)
+0e Samchay's Theme
+1b Samchay's Theme (loop)
+0f Lee's Theme
+1c Lee's Theme (loop)
+10 Mizoguchi's Theme
+1d Mizoguchi's Theme (loop)
+11 Jean's Theme
+1e Jean's Theme (loop)
+12 Marstrius' Theme
+1f Marstrius' Theme (loop)
+31 New Rival
+13 Yungmie's Theme
+20 Yungmie's Theme (loop)
+14 Zazie's Theme
+21 Zazie's Theme (loop)
+15 Clown's Theme
+22 Clown's Theme (loop)
+16 Karnov's Theme
+23 Karnov's Theme (loop)
+05 Indomitable Spirit (Continue)
+24 Ray's Ending
+25 Feilin's Ending
+26 Ryoko's Ending
+27 Matlok's Ending
+28 Samchay's Ending
+29 Lee's Ending
+2a Mizoguchi's Ending
+2b Jean's Ending
+2c Marstrius' Ending
+2d Yungmie's Ending
+2e Zazie's Ending
+2f Clown's Ending
+30 Karnov's Ending
+09 Ox's Theme (Extra Round)
+06 Game Over
+07 Best Grapplers
+$end

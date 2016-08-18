@@ -1,0 +1,32 @@
+$title=The King of Fighters '96
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+40 "In 1996" (Attract)
+46 Roulette (Player Selection)
+21 Esaka? (Main Team)
+42 "oraora" (Win)
+22 Big Shot "jaku" (Garou Team)
+24 Rumbling in the City (New Ikari Team)
+25 Psicho Soldier Remix '96 (Psicho Soldier Team)
+26 Seoul Road (Kim Team)
+23 Longhorn (AOF Team)
+41 Here Comes Challenger
+27 Get'n Up (New Female Team)
+28 Stormy Saxophone 2 (Yagami Team)
+2a Giese ni katakori (Giese)
+2b Dust Man (Mr.Big)
+29 Requiem in D minor Kv 626 Dies Irae (Klauser)
+43 "mamorishi mono" (Demo 1)
+2c Fairy (Secret Theme Music -Chizuru-)
+44 The Wind (Demo 3)
+2d Trash Head (Secret Theme Music -Genitz-)
+45 To the Sky (Demo 3)
+47 den! (Ending 1)
+48 den! den! (Ending 2)
+49 den! den! den! (Ending 3)
+4b Self (Main Team, Ending)
+2e Rising Red (Credits Roll)
+$end

@@ -1,0 +1,27 @@
+$title=The King of Fighters '94
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+2a The King of Fighters '94 (Title)
+2d The King of Fighters '94 (MVS Title)
+32 Death or Abasement (Player Selection)
+21 Jungle Bouncer (Brazil)
+30 Clear
+22 Ne! (Engliand)
+23 Ryuuko no hen (Mexico)
+24 Slum No. 5 (America)
+25 Napolitan Blues (Italy)
+26 Esaka (Japan)
+27 Sorrow (Korea)
+28 Psicho Soldier "K.O.F Version" (China)
+35 Head for R & D (Intermission)
+29 Duello R & D (Boss 1)
+34 Um.. (Demonstration after Boss 1)
+2b Showdown R & D (Boss 2)
+40 pure, bon (Ending 1)
+41 Happy JahÅIaarimasenka (Ending 2-1)
+2c Sunset Sky Part4 "Papaya Version" (Ending 2-2)
+31 Continue / Game Over
+$end

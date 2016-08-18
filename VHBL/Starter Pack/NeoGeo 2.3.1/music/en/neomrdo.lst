@@ -1,0 +1,26 @@
+$title=NEO Mr.Do
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 NeoGeo Logo
+27 Attract Mode
+44 Ranking Table
+7f Coin
+2f How to Play
+29 Main Theme
+4b Continue ?
+43 Extra Mode
+49 Round Clear
+25 Extra Stage
+49 Stage Clear
+23 Intermission
+39 Boss BGM 
+48 Congratulations
+46 Game Over
+47 Name Entry
+24 Unused 1
+26 Unused 2
+45 Unused 3
+4a Unused 4
+$end

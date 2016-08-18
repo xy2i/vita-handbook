@@ -1,0 +1,21 @@
+$title=Goal! Goal! Goal!
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 NeoGeo Logo
+21 Attract Mode
+7f Coin
+22 How to Play 
+ea BGM 2
+24 Result
+23 Tournament Map
+26 Congratulations !
+27 Credits
+e9 BGM 1
+ea BGM 2
+eb BGM 3
+22 How to Play 1
+28 How to Play 2
+25 How to Play 3
+$end

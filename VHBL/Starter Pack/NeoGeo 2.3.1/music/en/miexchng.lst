@@ -1,0 +1,17 @@
+$title=Money Puzzle Exchanger
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+5f Neo Geo Logo
+29 Opening
+23 Select Screen
+24 VS Screen
+27 Stage A (Change Fighter Exchanger)
+25 Stage B (Debt Fighter Dead Miser)
+28 Interrupt
+22 Stage C
+21 Stage D
+26 Game Over
+2a Ending
+$end

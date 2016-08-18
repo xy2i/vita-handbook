@@ -1,0 +1,22 @@
+$title=Windjammers
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Get Ready! (Select)
+03 Go for Broke! (Start)
+10 Shoot!! (Tiled Court)
+04 Game Set
+0b Next Round
+11 Windjammers (Lawn Court)
+09 Draw Game
+0f Flying Power Disc (Beach)
+0a Lost
+0d Continue?
+1c Hurry! (Dog Distance & Disc Bowling)
+14 Reach for the Top (Ranking, Continue)
+13 You Got a Power (Concrete Court)
+12 Break Point Champs (Stadium)
+1b The Winner (Ending)
+0e Game Over
+$end

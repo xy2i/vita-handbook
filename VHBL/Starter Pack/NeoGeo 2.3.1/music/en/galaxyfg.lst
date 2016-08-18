@@ -1,0 +1,39 @@
+$title=Galaxy Fight
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+5f Neo Geo Logo
+23 Galaxy Fight (Title)
+24 Here We Go! (Character Select)
+37 Rolf's Intro
+38 Power Of Fire (Rolf: Planet Air Rass)
+3c Kazuma's Intro
+3d Yami-Kagura (Kazuma: Planet Air Rass)
+2d Juri's Intro
+2e Eternal Beauty Forever (Juri: Planet Lezaar)
+2a Roomi's Intro
+2b Are You Listening? (Roomi: Planet Lutecia)
+35 Gunter's Intro
+36 Ancient Wrath (Gunter: Planet Guljeff)
+26 Alvan's Intro
+27 Ba-Rock (Alvan: Planet Rozalis)
+28 Golden Done's Intro
+29 Ethereal Dance (Golden Done: Planet Mani)
+33 Musafar's Intro
+34 Strong of Bring The Noise (Musafar: Planet Fakir)
+22 Bloody Street (Matchup: Planet Verazques)
+30 Jacob's Intro
+31 Trip! Trip! Trip! (Jacob: Planet Lutecia)
+3a Feldenkrais' Intro
+3b Pressure Drop (Feldenkrais' Stage)
+3e Loewe's Intro
+3f You Will Not A Mysterious Hermit (Loewe's Stage)
+41 What the hell are you doing? (Continue)
+43 Full of Fight (Rolf, Musafar: Ending)
+47 Bloody Sabbath Day (Kazuma, Juri, Golden Done: Ending)
+45 Good Fortune! (Gunter, Alvan: Ending)
+49 Star Puncher (Roomi: Ending)
+4a The End of Fights (Credits)
+42 Game Over
+$end

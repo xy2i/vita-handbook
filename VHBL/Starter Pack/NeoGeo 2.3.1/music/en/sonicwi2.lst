@@ -1,0 +1,38 @@
+$title=Aero Fighters 2
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+20 Video System!
+21 Opening
+22 Player Select
+23 Japan
+2c Boss
+31 Intermission
+24 France
+25 Atlantic Ocean (Bonus Stage)
+26 Brazil
+27 America
+28 Nepal (Bonus Stage)
+29 Australia
+2a Mexico
+2b Hawaii
+2d Fortress 1 / Monkey Station
+2e Fortress 2
+2f Final Boss (Big Monster Ball)
+30 Final Boss (Tenukii-Chaudo)
+33 Ending (Theme of Steve)
+35 Ending (Theme of Mao Mao)
+36 Ending (Theme of Mao Mao) -Instrumental-
+37 Ending (Theme of Hien)
+38 Ending (Theme of Silver)
+39 Ending (Best)
+3a Ending (Bad)
+3b Ending (Serious)
+3c Ending (Heartwarming)
+3d Ending (Damned Fool)
+3e Ending (Sadness)
+34 Credits Roll
+32 Name Entry
+$end

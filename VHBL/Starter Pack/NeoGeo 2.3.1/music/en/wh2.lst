@@ -1,0 +1,64 @@
+$title=World Heroes 2
+$samplerate=22050
+$pre=fc
+$stop=03
+$start
+02 Neo Geo Logo
+19 Wispering of Hell's Goddess (Title)
+0a Player Select
+0c Map Preview
+08 VS
+26 Fiord under Midnight Sun (Theme of Eric)
+27 As Like As The Flower Scatter before The Wind (Theme of Ryoko)
+20 Tiger Nail (Theme of Shura)
+2f Nice Guys of The Seas (Theme of Kidd)
+31 Jonny, Let's Dance (Theme of Max)
+0f M'Madmeeeen! (Theme of Mudman)
+29 Touch and Go (Theme of Fuuma)
+21 Outland Gladiator (Theme of Janne)
+04 Mighty Stroke (Theme of Dragon)
+14 Russian Speculator (Theme of Rasputin)
+4f Requiem for German Panzer Division #9 (Theme of Brocken)
+22 Mongolian Dynamite (Theme of J.Carn)
+11 Black Out #1 (Theme of Muscle Power)
+18 Intuition (Theme of Hanzou)
+16 A Way of Escape (Death Match: Scrapped)
+32 The Land of The Holy (Death Match: War Field)
+28 Not New York (Death Match: Bar)
+1d Foresight Songs (Deth Match: Ring)
+09 Stage Clear
+2b Let's Blaze Away (Bonus Stage)
+13 The Incarnation of A Devil (Theme of Neo Gigas)
+2a Murder -D- (Theme of DIO)
+2e Daddy's Wonder Stories (Eric's Ending)
+35 Let's Go Outside (Ryoko's Ending)
+05 Beautiful Brotherhood - Shurachan Ondo De Burabura (Shura's Ending 1)
+34 Beautiful Brotherhood - Shurachan Ondo De Burabura (Shura's Ending 2)
+06 'ANA' -The- World (Kidd's Ending 1)
+0b 'ANA' -The- World (Kidd's Ending 2)
+12 Holiding Temps Perdu (Max's Ending 1)
+1f Holiding Temps Perdu (Max's Ending 2)
+49 Ruddy Dreaming (Mudman Ending)
+47 Shake The Coke (Fuuma's Ending)
+43 Lady on The Shining Heights (Janne's Ending)
+2c Turn Right The Knob! (Dragon's Ending)
+45 Oh! Vanity Moon (Rasputin's Ending)
+51 Brocken, Upside-Down (Brocken's Ending 1)
+1e Brocken, Upside-Down (Brocken's Ending 2)
+33 Meridian Star (J.Carn's Ending)
+30 Yet Another Blow No.1 (Muscle Power's Ending)
+2d Back and Edge (Hanzou's Ending)
+1a Symphony of Evil (End Credits)
+07 Game Over
+3a As Like As The Flower Scatter before The Wind (Theme of Ryoko) alt.
+3c Not New York (Death Match: Bar) alt.
+3e Touch and Go (Theme of Fuuma) alt.
+40 Murder -D- (Theme of DIO) alt.
+4c Yet Another Blow No.1 (Muscle Power's Ending) alt.
+0d (unknown)
+0e (unknown)
+1c (unknown)
+38 (unknown)
+4a (unknown)
+4d (unknown)
+$end

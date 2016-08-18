@@ -1,0 +1,18 @@
+$title=Street Hoop
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+7f Neo Geo Logo
+06 Break Down (Team Select)
+01 Funky Beat (Beach)
+08 Fine (Stage Clear)
+02 Just 3 on 3 (Park)
+03 Yo! What's Up? (Slam)
+04 Friday Brother (Club)
+05 Body's Power (Meet)
+07 Brush Up (Continue)
+0a Over (Game Over)
+09 Magic Time (Ending)
+0b Hoop King (Name Entry)
+$end

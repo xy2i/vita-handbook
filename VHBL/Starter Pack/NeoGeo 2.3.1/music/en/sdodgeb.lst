@@ -1,0 +1,22 @@
+$title=Super Dodge Ball
+$samplerate=22050
+$pre=00
+$stop=03
+$start
+02 Neo Geo Logo
+90 Title
+8a Team Select
+82 Kunio Team Stage
+8b Winning Demo
+83 Riki Team Stage
+84 Shinji Team Stage
+86 Misuzu Team Stage
+87 Sabu Team Stage
+85 Miyuki Team Stage
+89 Kenji Team Stage
+88 Maou Team Stage
+8e Ending
+8f Credits Roll
+8c Continue
+8d Game Over
+$end

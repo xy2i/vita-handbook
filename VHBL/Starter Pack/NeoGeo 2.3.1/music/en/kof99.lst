@@ -1,0 +1,38 @@
+$title=The King of Fighters '99
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+45 Burning D.N.A. (Title)
+46 Burning D.N.A. Beta (MVS Title)
+38 Standby (How To Play - Player Select)
+39 Standby -w/o intro- (Player Select)
+22 KD-0079 (Main Team Theme)
+3a The Survivor (Win)
+23 176th Street (Fatal Fury Team)
+24 Ryu-Ko (Art of Fighting Team)
+25 W.W.III (Ikari Team)
+30 Dangerous Toys (Intermission)
+26 Psyco Sonic Trip -Dance At The Paddy Field- (Psicho Soldier Team)
+27 Sha-La-La (Female Team)
+28 The way to rebirth (Kim (Korean) Team)
+2e Esaka? -Acid Mix- (Kyo Kusanagi 1, 2 Theme)
+2c Tears (???'s Theme -Kyo Kusanagi)
+2d Sadistic Eyes (???'s Theme -Iori Yagami-)
+31 Final Battle? (Boss Appearing Demo 1)
+29 Mechanical Bless (Boss Stage 1)
+32 Hello, Good Bye (Boss Appearing Demo 2)
+2a Dear Falling Angel (Boss Stage 2)
+33 Escape From The Base-70599 (Boss Disappearing Demo 1)
+41 Collapse (Boss Disappearing Demo 2)
+42 Meet Again (??? Breaking in -Kyo Kusanagi & Iori Yagami-)
+3b Melting Point (Continue)
+44 Silver lining (Ending 1)
+34 Mysterious Drop (Ending 2)
+35 Good Afternoon (Ending 3)
+36 C.C. Trick (Ending 4)
+37 Without Saying Good-Bye (Ending 5)
+3c Will You Marry Me? (Ending 6)
+2b Cross fire (Credits Roll)
+$end

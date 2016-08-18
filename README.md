@@ -1,2 +1,2 @@
 # vita-handbook
-PS Vita comprehensive offline hacking guide lmao
+PS Vita comprehensive offline hacking guide

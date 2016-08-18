@@ -1,0 +1,32 @@
+$title=Magical Drop 2
+$samplerate=22050
+$pre=16
+$stop=03
+$start
+7f Neo Geo Logo
+19 Opening
+18 We are on! (Title)
+01 Explanation
+02 Wavering Mood (Select)
+03 Before Fight (Prologue)
+04 Dream of Fool (Fool)
+12 Holiday of Star (Star)
+13 Impish Rock'n Roll (Devil)
+14 Legend of Hero (Chariot)
+15 Daydream Fly (Priestess)
+16 Go Bravely (Justice)
+17 Lonely Battle (Magician)
+05 Whisper of Godess (World)
+06 Wild Beast (Strength)
+07 I'm the Best! (Empress)
+08 Ambitions of Black Pierrot (Black Crown)
+10 Challenger (Competition Mode)
+09 Thinking (Puzzle Mode (JP ver))
+11 Endless Worker (Endurance Mode)
+0b Just a Moment (Another Player Joined)
+0c I Won!
+0d I Lost!
+0e Game Over
+1a Everyone's Wishes (Ending)
+0f Magical Drop Shuffle (Credits Roll)
+$end

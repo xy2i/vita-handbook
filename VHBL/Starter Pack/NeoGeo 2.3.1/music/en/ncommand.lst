@@ -1,0 +1,37 @@
+$title=NINJA COMMANDO
+$pre=fd
+$stop=03
+$start
+02 NEO-GEO Logo
+04 BGM No.1
+05 BGM No.2
+06 BGM No.3
+07 BGM No.4
+08 BGM No.5
+09 BGM No.6
+0a BGM No.7
+0b BGM No.8
+0c BGM No.9
+0d BGM No.10
+0e BGM No.11
+0f BGM No.12
+10 BGM No.13
+11 BGM No.14
+12 BGM No.15
+13 BGM No.16
+14 BGM No.17
+15 BGM No.18
+16 BGM No.19
+17 BGM No.20
+18 BGM No.21
+19 BGM No.22
+1a BGM No.23
+1b BGM No.24
+1c BGM No.25
+1d BGM No.26
+1e BGM No.27
+1f BGM No.28
+20 BGM No.29
+21 BGM No.30
+22 BGM No.31
+$end

@@ -1,0 +1,50 @@
+$title=The King of Fighters '97
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+20 [Command] Sound Stop
+02 NeoGeo Logo
+21 4th Fire (Title Screen)
+3a 4th Fire Beta (MVS Version Title)
+23 Order (Player Selection)
+25 Satella View (Introduction)
+40 Esaka Forever (Kyo Kusanagi)
+22 Winner (Win)
+45 With Kuri Forever (Terry Bogard)
+30 Japan (Japanese Stage)
+44 Bloody (New Face Team)
+47 Blue Mary's Blues (Blue Mary)
+31 Bari (Balinese Stage)
+43 Psycho Soldier Remix '97 (Atena Asamiya)
+2d S.N.N.W (Intemission)
+35 Ameirca (US Stage)
+42 Still Green (Shingo Yabuki)
+46 C62 - Shirokuni (Ryuji Yamazaki)
+32 China (Chinese Stage)
+48 London March (Billy Kane)
+24 H.C.C (Joining In)
+33 Korea (Korean Stage)
+41 Cool Jam - Stormy Saxophone 3 (Iori Yagami)
+34 Monaco (Monaco Stage)
+2e You're the King of Fighters (Victory)
+26 Memory (Demo 1-1)
+2f Craziness (Demo 2-2)
+49 Control Crisis (Secret Stage - Iori Yagami, Lona)
+51 Everything is for Disillusion (Demo 2)
+27 Everything is for Disillusion (Short Version - Demo 2)
+4a Rhythmic Hallucination (Secret Stage - Team Orochi)
+28 Eye Opening (Demo 3)
+4b The Origin of Mind (Secret Stage - Orochi)
+50 Nil (Demo 4)
+29 Episode I (Ending 1)
+2a Episode II (Ending 2)
+2b Episode III (Ending 3)
+37 Episode X (Ending 4-1)
+38 Crime and Punishment (Ending 4-2)
+39 Last Fire (Ending 4-3)
+36 Futari (Secret Stage - Kyo Kusanagi vs Iori Yagami)
+4c Mirthless (End Credit)
+2c Count Down (Continue)
+20 [Command] Sound Stop
+$end

@@ -1,0 +1,18 @@
+$title=Zed Blade
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+5f Neo Geo Logo
+2d O.P.R. (Opening / Ending)
+7f Credit Inserted
+21 Can't Wait 30 Sec. (Title)
+22 Konstruktion (Select / Stage Demo)
+23 Shootaholic -Shockout Mix- (Stage 1, 6 / Credits)
+24 Universe Blue -Yueez Mix- (Stage 2, 5)
+25 Bionic Life -Hangup Mix- (Stage 3, 7)
+26 Asteroid Circus -Leprosy Mix- (Stage 4)
+2b Valkylie -She Likes Gabber Mix- (Stage 8)
+2a Termination 4U -Lunatic Mix- (Boss)
+2e Game Over
+$end

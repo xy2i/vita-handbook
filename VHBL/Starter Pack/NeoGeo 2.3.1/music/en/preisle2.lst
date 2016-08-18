@@ -1,0 +1,28 @@
+$title=Prehistoric Isle 2
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+2b Attract Mode
+2c How to Play
+2d Player Select
+22 Stage 1 BGM 1
+33 Defend People !
+2e Stage 1 BGM 2
+21 Stage 2 
+26 Continue
+29 Stage 3 
+25 Stage 4 
+24 Stage 5
+23 Boss BGM (Stage 1, 2, 3, 4, 5) 
+30 Stage Clear !
+2f Stage 6
+30 You Made It !!!
+32 Credits
+27 Game Over
+28 Name Entry
+2a Player Select (alt)
+34 Unused 1
+31 Unused 2
+$end

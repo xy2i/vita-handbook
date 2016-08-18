@@ -1,0 +1,31 @@
+$title=The King of Fighters '95
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+21 K.O.F '95 (Title)
+3a K.O.F '95 #2 (MVS Title)
+38 Devil's Selection (Play Select)
+2c Surge Selection (Team Select)
+22 Funky Esaka (Japan)
+30 Heights of Prosperity (Win)
+23 Respect (Korea)
+24 Desert Requiem (Near East)
+25 The Fatal Gong (China)
+26 Club-M (Mediterranean)
+27 Ryuuko and Ken (U.S.A)
+28 Crawling Bass (England)
+29 Stormy Saxophone (U.S.A)
+2d R in Tears, D in Sad (Rugal's Demo 1, 3)
+2e R in Tears, D in Sad (Rugal's Demo 2)
+2a Hal, Bass and Melody (Final Boss, Round 1)
+33 Anthem of Rugal (Rugal Appears)
+37 Guitar Omega and Rugal (Final Boss, Round 2)
+39 Rugal Vanished
+34 Kid (Ending 1)
+35 Good Bye, Teers (Ending 2)
+36 Farewell! Bloom of Youth (Ending 3)
+2b The Sunset Sky Part VI - Liebe (Credits Roll)
+31 Desire (Game Over)
+$end

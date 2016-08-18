@@ -1,0 +1,42 @@
+$title=The King of Fighters 2000
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+21 00 (Opening Demo)
+7f Credit
+38 Be-Ta Force (How to play - Selection)
+39 Be-Ta Force 2 (Selection 2)
+22 KD-0084 (Main Character Team)
+3a LV-4 (Win)
+2e Inner Shade (Benimaru Team)
+23 Terry 115 (Garou Team)
+24 Beauty & The Beast (Ryuko Team)
+25 The Trooper (Ikari Team)
+31 Cat Tail (Intermission)
+26 Will (Psycho Soldier Team)
+27 Come Up Smiling (Female Team)
+28 Wild Party (Korean Team)
+3c LV-1 (Win, Single Play)
+2c Good Bye Esaka (Kyo Kusanagi)
+2d Stormy Scream (Iori Yagami -Stormyo Saxophone 4-)
+33 Be Freezed (Challenger Appeared)
+29 Ice Place (Boss - Coola)
+32 Devil (Zero)
+2a Slasher Zero (Final Boss -Zero-)
+35 Dream Eater (Zero Disappearing)
+40 Crystal -Type 1- (Ending - Credits Roll - Main Character Team)
+41 Crystal -Type 2- (Ending - Credits Roll - Benimaru Team)
+42 Crystal -Type 3- (Ending - Credits Roll - Garou Team)
+43 Crystal -Type 4- (Ending - Credits Roll - Ryuko Team)
+44 Crystal -Type 5- (Ending - Credits Roll - Ikari Team)
+46 Crystal -Type 6- (Ending - Credits Roll - Female Team)
+47 Crystal -Type 7- (Ending - Credits Roll - Korean Team)
+48 Crystal -Type 8- (Ending - Credits Roll - Kyo & Iori)
+49 Crystal -Type 9- (Ending - Credits Roll - Kuula)
+45 Crystal -Type A- (Ending - Credits Roll - Psycho Soldiers)
+4a Crystal -Type A- (Ending - Credits Roll - Random Team)
+3b Sukuwareru (Continue)
+2b Crystal -Type B- (Credits Roll -Endless Version-)
+$end

@@ -1,0 +1,33 @@
+$title=NINJA COMBAT
+$samplerate=22050
+$pre=fc
+$stop=03
+$start
+02 Neo Geo Logo
+05 Opening
+06 The Heavy Responsibilities of the Ninja Combat (Stage 1)
+1c BGM A
+09 Battle Act 1 (Boss 1, Boss 5)
+10 Stage Clear 1
+0f Stage Clear 2
+14 Select
+07 Golden Gate Bridge (Stage 2)
+11 Battle Act 2 (Boss 2)
+08 New York Underground (Stage 3)
+18 BGM C
+12 Battle Act 3 (Boss 3)
+17 Full-scale Attack (Final Version)
+04 Infiltration (Stage 4)
+1b BGM B
+1a Battle Act 4 (Boss 4)
+0d Dangerous Life (Stage 5)
+13 Ninja Romantics (Stage 6)
+15 Battle Act 6 (Boss 6)
+0b Last Chance of Your Life (Stage 7)
+19 Beautiful Life (Pre-Boss)
+16 Battle Act 7 (Boss 7)
+0c Door on the Horizon (Ending)
+0e Game Over
+0a Unused 1
+1d Unused 2
+$end

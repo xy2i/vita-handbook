@@ -1,0 +1,26 @@
+$title=Shock Troopers
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+47 Shock Troopers (Opening)
+4a Instruction
+40 Select (Player Select, Map Preview)
+26 Ride on
+28 Neo Tokyo 2015
+23 Junglizm
+43 Remark #1
+48 Remark #2 (Intermissions)
+27 Undercover
+25 Bumpers
+2a Nu Era of Technorogy
+22 Dark Matter (Boss A)
+30 Breakbeat Science (Boss B)
+41 Stage Clear
+42 Last Stage
+31 Last Boss
+46 Last Boss Clear
+33 Talk Darty to Me (Ending)
+49 Ranking
+$end

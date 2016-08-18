@@ -1,0 +1,35 @@
+$title=Metal Slug 3
+$samplerate=22050
+$pre=00
+$stop=03
+$start
+02 Neo Geo Logo
+21 The Military System (How to Play, All Missions Complete)
+23 Barraks (Player Select)
+25 Fang in the Blue Sea (Dr. Morrow's Island) (Mission 1-1)
+26 Marine Diver (Mission 1-2)
+27 The Unknown World (Mission 1-3, 4-5, 5-5)
+24 Steel Beast 6Beets (Boss Theme A)
+28 Midnight Divagation (Mission 2-1 )
+29 Devil's Snowhole (Mission 2-2)
+33 Metamorphosis (Boss Theme B)
+35 Shallow Sea (Mission 3-1)
+2a Under the Hard Sea (Mission 3-3)
+2f Assault Theme (Mission 5-2)
+37 The Secret Factory (Mission 3-2)
+2b Desert (Mission 4-1)
+2c Pyramid (Mission 4-2)
+31 The Cenotaph (Mission 4-3)
+36 Japanese Soldiers (Mission 4-4)
+2d To the Sky (Mission 5-1) 
+ce The Kidnapping (Mission 5, Intermission)
+2e Into Space (Mission 5-3)
+32 Kiss in the Dark (Mission 5-4)
+34 First Contact (Mission 5-6)
+38 Bioinformatics (Mission 5-7)
+39 Escape (Mission 5-8)
+30 Final Attack (Final Boss)
+3a End Title Again (Ending)
+22 Grave Stone (Game Over)
+20 Carry Out (Mission Complete)
+$end

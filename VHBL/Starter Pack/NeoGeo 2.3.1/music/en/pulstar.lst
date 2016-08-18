@@ -1,0 +1,26 @@
+$title=Pulstar
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+88 Mission (Title Demo)
+90 Strain (Start Demo)
+80 Back Alive (Stage 1)
+8c Cry Out Enemy (Boss)
+8b Stirring (Stage Clear)
+85 Seen Through (Stage 2)
+81 Wrath of Earth (Stage 3)
+8d The Jupiter Spirit (Stage 3 Boss)
+83 Cheer Up (Stage 4)
+84 Planet of Forest (Stage 5)
+86 Foul Smell (Stage 6)
+82 Ankoku Seiun (Stage 7)
+87 End of War (Stage 8)
+91 Galactic Ruler (Final Stage)
+8e Galactic Ruler 2 (Last Boss)
+8f Revive (Ending)
+ff Ocean War (Continue)
+89 Game Over
+8a Head Waver (Name Entry)
+$end

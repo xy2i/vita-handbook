@@ -1,0 +1,35 @@
+$title=Crossed Swords
+$samplerate=22050
+$pre=fd
+$stop=03
+$start
+02 Neo Geo Logo
+04 Cross Sword Prelude
+09 Map
+19 Stage Select
+07 Disaster in the Poor Village of Dio
+0b Heavy Metal
+0f Clear
+08 Laosta the Peddler
+17 Fingerpost
+0a The Shaken Castle in Pulista
+18 Aged
+0c A Desperate Fight at the Matius Tower
+05 Fear
+06 Tine
+14 Death Masquerade
+10 Monster Fish in the Fort of Gouda
+1d Worm
+0d Assault Landing Ship
+1c Baxley
+0e Cave in Leary
+1e Old Soldier
+1b Kiaugh
+1a Evil Castle of Glacier
+16 Nauthiz
+13 Faraway Thunder
+1f Clore
+11 Remembrance
+12 Game Over
+23 Evil Castle of Glacier (Alt.)
+$end

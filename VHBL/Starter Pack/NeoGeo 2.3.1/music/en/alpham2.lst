@@ -1,0 +1,33 @@
+$title=Alpha Mission II
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+3b ASO II Title #1
+3d ASO II Title #2
+30 The Space Flight (Area 1)
+41 Severe Fight (Boss 1)
+3c Clear
+50 My Fighter (Shop)
+32 The Big Battleship (Area 2 - Above the Battleship)
+3a Sonic Barrier (Area 2 - Inside the Battleship)
+42 Massacre (Boss 2)
+2e Macrocosm Space (Area 3)
+40 Stoicism (Boss 3)
+2d Warp Zone (Area 4)
+36 Planet of Water (Area 5)
+37 Subspace (Area 6)
+33 The Final Zone (Last Boss)
+22 Laugh (Ending)
+3f Game Over
+3e Ranking
+29 The Space Flight (Area 1)
+28 The Space Flight (Area 1)
+2c The Space Flight (Area 1)
+2a The Space Flight (Area 1)
+39 Sonic Barrier (Area 2 - Inside the Battleship)
+38 Subspace (Area 6)
+34 The Final Zone (Last Boss)
+31 Laugh (Ending)
+$end

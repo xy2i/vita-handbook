@@ -1,0 +1,23 @@
+$title=Over Top
+$samplerate=22050
+$pre=fc
+$stop=03
+$start
+02 Neo Geo Logo
+33 Emergency of the Road (Opening)
+30 Hold On (How to Play - Select)
+0a Rotterdam? (BGM 1)
+0b Rotter Dam Dam Dam (BGM 2)
+04 Drive or Die (BGM 3)
+05 Music of the Wind (BGM 4)
+06 Crazy Kids (BGM 5)
+07 Operation Desert Sandstorm (BGM 6)
+20 No More Tears (BGM 7)
+32 Natural Conclusion (Finish)
+31 Successful Conclusion
+0c No Pain (Credit Roll)
+0d Over Now (Game Over)
+34 You're the Champ (Name Entry)
+10 Unused 1
+11 Unused 2
+$end

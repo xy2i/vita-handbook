@@ -1,0 +1,24 @@
+$title=Metal Slug X
+$samplerate=22050
+$pre=00
+$stop=03
+$start
+02 Neo Geo Logo
+2e The Military System (How to Play, All Missions Complete)
+30 Barracks (Player Select)
+21 Judgment (Mission 1-1)
+2c Steel Beast 6Beets (Boss Theme A)
+22 Prehistoric Site (Mission 2-1, 2-2)
+23 The Cenotaph (Mission 2-3)
+27 First Contact (Boss Theme B, Mission 6-2)
+24 Livin' on the Deck (Mission 3-1)
+28 Assault Theme (Boss Theme C, Mission 6-1)
+25 Back to the China (Mission 4-1)
+26 New Godokin Street (Mission 5-1)
+2a Kiss in the Dark (Mission 5-2)
+2b Metamorphosis (Mission 5-3)
+2d Gravestone (Game Over)
+29 Final Attack (Mission 6-3 / Final Boss Theme)
+2f End Title Again (Ending)
+20 Carry Out (Mission Complete)
+$end

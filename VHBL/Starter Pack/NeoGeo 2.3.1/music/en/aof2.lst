@@ -1,0 +1,47 @@
+$title=Art of Fighting 2
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+29 Theme of Art of Fighting 2 (Title)
+36 Theme of Art of Fighting 2 - MVS Version
+41 I Select This Boy (Player Selection)
+26 Horse and Me (Ryo Sakazaki)
+45 Ferrari Man (Robert, Intro Demo)
+28 Swing the House (Robert Garcia)
+30 Zoku (Jack Turner)
+22 Chinese Old Man - Neo Asian Mix (Lee Pai Long)
+31 Pumpkin and Pierrot (King)
+46 Toward Glory (Micky, Intro Demo)
+50 Prelude to Glory (Micky Rogers)
+33 Bonus Game (Bonus M.E)
+4e Bonus Game (Bonus Select)
+2d Mastered (Bonus, Success)
+2e Another Chance (Bonus, Failed)
+2b Initiation of the Special Move (Old Temple)
+2c Initiation of the Special Move (Old Factory)
+32 Nature (Full of Energy)
+43 100 Matches
+40 Next Stage (Map Preview)
+24 Mustang Man (John Crawley)
+25 Road of Shinobi (Eiji Kisaragi)
+51 Foghorn (Temjim)
+27 Diet (Yuri Sakazaki)
+23 Grand Master (Takuma Sakazaki)
+21 Blue Moon Factory - Oh Oh Big Mix (Mr.Big)
+4d Commissioner (Giese Pulled in)
+44 Mm? Giese? (Giese Appears)
+52 Kiss Giese - Cyber Edit (Giese Howard)
+35 To Garou (Giese Escaped)
+34 See You in Garou (Epilogue - Giese)
+48 Bright and Happily (Ending - Ryo, Robert, Yuri, Temjin)
+49 Ambition (Ending - Jack, Big)
+4c New Drug Development (Ending - Lee)
+4a New.. (Ending - Micky, John)
+47 Road of Shura (Ending - Kisaragi)
+4b Hope (Ending - King, Takuma)
+2a Too Long (Credits)
+42 Continue
+2f Game Over
+$end

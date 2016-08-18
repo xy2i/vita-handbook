@@ -1,0 +1,37 @@
+$title=Samrai Shodown
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+27 Static and Dynamic (Title)
+35 Static and Dynamic -Short Edit- (Title)
+2d Twelve Swordsmen (Player Select)
+31 Wanderings (Map)
+21 Masculine Song -Sun- (Haohmaru)
+22 Masculine Song -Moon- (Ukyo Tachibana)
+56 Drum Roll 1 (Amakusa Demo)
+24 Bamboo Thicket (Jubei Yagyu)
+41 Shadow (Hanzo Hattori)
+57 Ominous Feeling (Four Wins Demo)
+40 Tunny (Galford)
+42 Banquet of Nature (Nakoruru)
+43 Barbarian (Tam Tam)
+29 Hard Work (Bonus Stage)
+45 Foreign Lady (Charlotte)
+23 Ogre (Gen-an Shiranui)
+44 Comma-Shaped Bead (Kyoshiro Senryo)
+28 Earth (Earthquake)
+25 Wan-Fu (Wan-Fu)
+2c Conclusion (Winning Demo)
+2f Drum Roll 2 (Final Demo)
+2a Heartbeat (Amakusa Shiro Tokisada 1)
+55 Blaze (Transformation)
+26 Darkness (Amakusa Shiro Tokisada 2)
+51 Shout (Ending 1)
+52 Peace (Ending 2)
+46 Revolutionary Lady (Charlotte Ending)
+50 Festival Music (Credits Roll)
+53 Encore (Continue)
+54 Curtain Fall (Game Over)
+$end

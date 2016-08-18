@@ -1,0 +1,27 @@
+$title=The Super Spy
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+2a The Super Spy (Title)
+25 Code "X" (Area 1)
+23 Blot (Small Boss 1)
+3d Escapism (Intermission)
+2b Bend the Rule (Area 2-1)
+39 Make a Bet (Small Boss 2Åj
+2d Vixen (Mid Boss)
+28 Imputation (Boss)
+3c On the Rove (Area 2-2Åj
+2f Chief Tain (Final Boss)
+32 New World (Ending)
+29 (unused)
+30 (unused)
+3f (unused)
+3a Code "X" (Area 1) - w/o intro
+3e Blot (Mid Boss 1) - w/o intro
+27 Imputation (Boss) - w/o intro
+3b Bend the Rule (Area2-1) - w/o intro
+2e Chief Tain (Final Boss) - w/o intro
+31 New World (Ending) - w/o intro
+$end

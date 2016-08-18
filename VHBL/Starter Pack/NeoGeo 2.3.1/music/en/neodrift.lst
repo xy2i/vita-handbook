@@ -1,0 +1,23 @@
+$title=NEO Drift Out
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 NeoGeo Logo
+21 Attract Mode
+7f Coin
+22 How to Play
+23 Stage Start
+21 Practice Stage (Stage 0)
+24 European Stage (Stage 1)
+25 African Stage (Stage 2)
+26 Snow Land Stage (Stage 3)
+2e Continue
+27 Southern Hemisphere (Stage 4)
+28 Scandinavian Stage (Stage 5)
+29 Great Britain Stage (Stage 6)
+2d Result
+2c Ending
+2a Credits
+2b Game Over
+$end

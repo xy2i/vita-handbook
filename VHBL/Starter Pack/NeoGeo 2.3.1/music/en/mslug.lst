@@ -1,0 +1,20 @@
+$title=Metal Slug
+$samplerate=22050
+$pre=00
+$stop=03
+$start
+02 Neo Geo Logo
+2b The Military System
+21 Main Theme from Metal Slug (Mission 1)
+22 Inner Station (Mission 2)
+23 Assault Theme (Mission 3)
+28 Steel Beast (Boss)
+20 Carry Out (Misson Complete)
+24 Ridge 256 (Mission 4)
+25 Gerhardt City (Mission 5)
+27 Gravestone (Game Over)
+26 Final Attack (Mission 6)
+29 End Title (Ending)
+2a Hold you still! (2 Player Game Ending)
+2c Nazca Logo
+$end

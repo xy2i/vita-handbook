@@ -1,0 +1,44 @@
+$title=Samurai Shodown IV
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+21 Amakusa's Revenge (Title)
+39 Seventeen Swordsmen (Player Select)
+2c Shimabara (Map)
+3a Fare and Square
+22 Road to Asura (Haohmaru)
+3b Conclusion (Conclusion)
+50 River Part 2 (Ukyo Tachibana)
+30 Incarnation of Tunny (Galford)
+52 Banquet of Nature Part 2 (Nakoruru)
+53 Mirror of Mind Part 2 (Rimururu)
+55 Meditation 1 (Image 1)
+56 Meditation 2 (Image 2)
+57 Meditation 3 (Image 3)
+23 Song of Inhumanity Part 2 (Genjuro Kibagami)
+54 Foreign Lady Part 3 (Charlotte)
+51 Flame (Kazuki Kazama)
+31 Incarnation of Water (Sogetsu Kazama)
+2e Two (Amakusa Demo)
+32 Dynamic Static (Amakusa Shiro Tokisada)
+33 Static Dynamic (Zankuro Minazuki)
+24 Cherry Blossoms (Cherry Blossoms Stage)
+34 San no Miya (Seaside Stage)
+25 Bamboo Grove (Bamboo Grove Stage)
+35 Dog (Deserted Village Stage)
+26 Burning Hell (Fire Stage)
+27 Old Temple (Old Temple 1)
+28 Two Deva Kings (Old Temple 2)
+36 Steam (Rocky Stage)
+37 Obscure (Execution Stage)
+2f Three (Rival Appearance Demo)
+38 Worthy Opponent (Last Battle)
+3c Encore (Continue)
+2d View 1 (Normal Ending)
+3e View 2 (Bad Ending)
+29 End
+3f Promoters (Credits Roll)
+3d Curtain Fall (Game Over)
+$end

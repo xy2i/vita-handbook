@@ -1,0 +1,30 @@
+$title=Burning Fight
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+02 Neo Geo Logo
+2a Title
+29 Player Select
+21 Stage 1 - Main Street
+2d Bar
+27 Sub-Boss (Stage 1-Truck, 2-Tom Anderson & Azusa Heike, 3-Gary Powell)
+2c Boss (Stage 1-Yujiro Heike, 2&4-Marshall)
+24 Stage Clear
+22 Stage 2 - Shopping Center I
+23 Shop
+35 Stage 2 - Shopping Center II
+2b Stage 2 - Shopping Center III
+2e Stage 3 - Downtown I
+32 Stage 3 - Downtown II
+36 Boss (Stage 3-Nitou Ryuji)
+38 Stage 4 - South Bay Area
+3f Warehouse
+3c Stage 5 - Sea Area
+3b Boss (Stage 5-Casterora)
+46 Final Stage Clear
+3d Credits Roll
+25 Name Entry
+30 Game Over
+26 Unused
+$end

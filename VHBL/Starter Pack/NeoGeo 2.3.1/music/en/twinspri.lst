@@ -1,0 +1,31 @@
+$title=Twincle Star Sprites
+$samplerate=22050
+$pre=fc
+$stop=03
+$start
+02 Neo Geo Logo
+0f Respiration (Opening 1)
+08 Twinkle Star (Opening 2)
+1e Character Select
+1c Map Preview
+1f Demo BGM 1
+04 Applicot Ground (Forrest 1 - Yan YanYung)
+05 Holidays (Forrest 2 - Realy Till)
+19 Won
+22 Challenger Appeared
+1b Versus Game
+10 Disagreeable (Achelis 1 - Nanja Monja)
+11 Curiouser and Curiouser (Achelis 2 - Kim)
+0b Love Me (Cloudia 1 - Arthur Schmitt)
+21 Love So "Radio Active Mix" (Cloudia 2 - Tinker & Linker)
+13 Like Sisters Like (Freezia 1 - Macky & Pentell)
+12 Both You and Me (Freezia 2 - Griffon)
+1a Demo BGM 2
+06 Rosselian (Mevious Castle 1 - Dark Ran)
+07 Neo Life (Mevious Castle 2 - Mevious)
+0c Love will never Die (Wonder World - Queen Memory)
+20 Longing / Re-Birth (Ending / Credits)
+1d Rating
+0a Continue
+18 Game Over
+$end

@@ -1,0 +1,21 @@
+$title=Puzzle Bobble
+$samplerate=22050
+$pre=07
+$stop=03
+$start
+5f Neo Geo Logo
+29 Title Screen
+21 Let's Go to Pao Pao Island! (BGM1)
+24 Forest in April (BGM2)
+23 Cleared
+26 Continue
+27 Ending
+22 Game Over
+28 Ending (w/o intro)
+31 ???
+32 ???
+33 ???
+34 ???
+35 ???
+36 ???
+$end
