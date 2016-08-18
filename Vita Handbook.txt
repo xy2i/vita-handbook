@@ -17,8 +17,8 @@
   mmmmmmd mmmmmmmd                                                           ddmmmm  m dd  ddmd`
   smmmmd  mmmmmmd      fully archived with relevant hacking software        ddmmddm mddmm mmmddd
   ` mmmmmmmmmmmm                                                            ddmddddmmm  mmmddddd
-   `smNmmmmmmmmmd                                 03/07/14                 ddmmm@@@@#d mddddddd`
-     / _____mdmmmmmmdddddd                         Firmware 1.50          dddmm##  #Nmddddddddd`
+   `smNmmmmmmmmmd                                 19/08/16                 ddmmm@@@@#d mddddddd`
+     / _____mdmmmmmmdddddd                         Firmware 1.52          dddmm##  #Nmddddddddd`
       `/ ssmddddddddmmmmmmmmmdddddd                                      ddmmNM     Ndmmmmddmm/ 
          -+ ddmmmmmddddddddddddddddmmdddddd             Written by xy2_  ddmmdm     mddmmmddds  
             ` -/+s dddmmmmmmdddddddddyyyyyyyyyddddddd                    dddmddd   @mdddddddd`  
