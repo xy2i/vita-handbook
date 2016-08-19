@@ -521,7 +521,7 @@
      restoring a backup will wipe most of your data, so be sure to back up your memory card first
     as well.
         
-       10. Game dumping: dump entire decrypted games (without eboot!)
+       10. Game dumping: dump entire decrypted games (without eboot!) | @TRI10
        ######################################################################################
 
       This tutorial will allow you to entirely dump games; this means the entire decrypted
