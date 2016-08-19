@@ -538,7 +538,7 @@
       = A game, either digital or physical (gamecard)
 
       1. Install SQLite Browser [/SQLite Browser].
-      2. FTP ux0:shell/db/app.db to your computer. Make sure to make a backup of this!
+      2. FTP ur0:shell/db/app.db to your computer. Make sure to make a backup of this!
       3. Open SQLite Browser and oepn app.db with it.
       4. Click on "Browse Data", select the dropdown and select "tbl_uri".
       5. Click on "New Record".
@@ -550,7 +550,7 @@
       8. Search for the entry that mentions an eboot path (ending in eboot.bin). Replace it with
      "vs0:app/NPXS10027/eboot.bin".
       9. Save the changes and FTP the modified app.db back to your Vita in the same path:
-     ux0:shell/db/app.db.
+     ur0:shell/db/app.db.
       10. Reboot your Vita.
 
       You have now modified app.db. This is the first step; once you have done this modification
