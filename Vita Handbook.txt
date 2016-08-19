@@ -388,9 +388,7 @@
 	  * 04 for Korea            * 0a for Russia
 	  * 05 for United Kingdom   * 0d for China
 	  * 06 for United Kingdom 2
-	  All other values are invalid. Once done, run fixreg_vita again; it will generate a
-	 system_.dreg file: rename it to system.dreg and FTP it back to your vita. Keep the old
-	registry as a backup.
+	  All other values are invalid. Once done, FTP system.dreg back to your Vita.
 	
 	  b. Swapping X and O | @TRI8B
 	  ######################################################################################
@@ -400,15 +398,12 @@
 	  = HENkaku
 	  = An hex editor
 	  
-	  1. Dump system.dreg and system.ireg then run fixreg_vita.exe with these two files in the
-	 same directory.
+	  1. Dump system.dreg and system.ireg .
 	  2. Open system.dreg with your hex editor. Search for a string saying "button_assign"; one
 	 line below, there should be a single byte with a number in a line of 00. Modify it to match
 	your new button assignement:
 	  * 00 makes O enter          * 01 makes X enter
-	  All other values are invalid. Once done, run fixreg_vita again; it will generate a
-	 system_.dreg file: rename it to system.dreg and FTP it back to your vita. Keep the old
-	registry as a backup.
+	  All other values are invalid. Once done, FTP system.dreg back to your Vita.
 
 	  c. Enabling Semi-Debug mode | @TRI8C
 	  ######################################################################################
@@ -419,15 +414,12 @@
 	  = HENkaku
 	  = An hex editor
 	  
-	  1. Dump system.dreg and system.ireg then run fixreg_vita.exe with these two files in the
-	 same directory.
+	  1. Dump system.dreg and system.ireg.
 	  2. Open system.dreg with your hex editor. Search for a string saying "enable_np"; one
 	 line below, there should be a single byte with a number in a line of 00. Modify it to match
 	your new semi-debug mode status:
 	  * 00 makes SDB  disabled    * 01 makes SDB enabled
-	  All other values are invalid. Once done, run fixreg_vita again; it will generate a
-	 system_.dreg file: rename it to system.dreg and FTP it back to your vita. Keep the old
-	registry as a backup.
+	  All other values are invalid. Once done, FTP system.dreg back to your Vita.
 	
 	  d. Changing AccountID - restore ANY Vita system backup | @TRI8D
 	  ######################################################################################
