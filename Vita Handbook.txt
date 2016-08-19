@@ -542,9 +542,9 @@
       3. Open SQLite Browser and oepn app.db with it.
       4. Click on "Browse Data", select the dropdown and select "tbl_uri".
       5. Click on "New Record".
-      6. Fill out the entry: On "titleId", type "1"; on "flag", type "1" and on "scheme", type
-     "ux0" if you are dumping a digital (on your memory card) game, or "gro0" if you are dumping
-    a physical (on a gamecard) game.
+      6. Fill out the entry: On "titleId", type "NPXS1000"; on "flag", type "1" and on "scheme",
+     type "ux0" if you are dumping a digital (on your memory card) game, or "gro0" if you are 
+    dumping a physical (on a gamecard) game.
       7. Click on the dropdown and navigate to "tbl_appinfo". Search for a "titleId" of
      "NPXS10000".
       8. Search for the entry that mentions an eboot path (ending in eboot.bin). Replace it with
