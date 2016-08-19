@@ -33,7 +33,7 @@
         o  __   /   _   _  _/ . .  _./  o  _  __ 
         <_/ / <_<__/ (_(_)(_/_(_/_(__<__<_(_)/ / @INT
         _________________________________________________________________________________________
-		
+	
 	  In regards to Vita hacking, the scene has changed drastically with the release of the new
 	 hack HENkaku. This has divided the Vita into two separate communities: 3.60 users, and
 	3.52 or lower users (with the edge case of 3.55 users.) In terms of writing a guide, this is
