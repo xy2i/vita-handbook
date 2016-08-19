@@ -134,11 +134,10 @@
      
       = QCMA
       
-       1. Find the 3.60 update file [/PSP2UPDAT.PUP] and copy it to your QCMA update folder
+       1. Find the 3.60 update file named PSP2UPDAT.PUP and copy it to your QCMA update folder
       (to set this, right click QCMA and go in "Settings", then set the "Update" folder, fifth
      from the top.) You will also need the xml file [/psp2-updatelist.xml] and place it in
-     the same folder. Currently regions eu/us/jp/uk are included, if there is a region that is
-     not in the XML, edit it manually and notify me.
+     the same folder. The PUP is not provided for legal reasons.
        2. Go into airplane mode and restart your Vita (just in case.)
        3. Launch QCMA and plug your Vita via USB.
        4. From "Settings", select "System Update", then "Update from PC."
@@ -198,7 +197,13 @@
     FileZilla) in FTP to access it. Alternatively, you can also use the original VitaShell
     (included in this guide under [/VitaShell.vpk]) which offers some bugfixes and shows
     all partitions natively, if you are going to do more with FTP than transferring homebrew.
-    
+   
+      Since HENkaku abolishes filesystem restrictions, you can also use it to retrive files
+     from the pspemu. When PSP games are run, they are simply run inside the Vita's own PSP
+    emulator. Normally CMA makes all the PSP side files you need accessible (such as games)
+    but certain files, such as in-game recordings, will be saved to the pspemu's directory.
+    For this case, you can find the saved videos under "ux0:pspemu/VIDEO".
+ 
       Most of all, if you simply want to mess around, some info is included with the handbook:
      [Filesystem Listing.txt] lists all the avaible file on a stock 3.30 Vita, which are all
     dumpable.
