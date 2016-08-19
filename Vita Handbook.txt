@@ -33,589 +33,590 @@
         o  __   /   _   _  _/ . .  _./  o  _  __ 
         <_/ / <_<__/ (_(_)(_/_(_/_(__<__<_(_)/ / @INT
         _________________________________________________________________________________________
-		
-	  In regards to Vita hacking, the scene has changed drastically with the release of the new
-	 hack HENkaku. This has divided the Vita into two separate communities: 3.60 users, and
-	3.52 or lower users (with the edge case of 3.55 users.) In terms of writing a guide, this is
-	a hard decision to make, as trying to support both sides will end up in a guide overly 
-	complicated, and getting new users to a common point for support is much easier (why is why
-	I think Molecule made it so HENkaku only supports 3.60, and have to plans to port.)
-	  After deliberation, this tutorial will only support 3.60 users, as they vastly outclass
-	 what >3.52 Vitas can do. The only advantage of a 3.52 Vita at the time of writing is the
-	ability to play PSP ISOs, an ability that I'm sure 3.60 users will gain in due time.
-	
-	 So, here it is in all caps: GET A 3.60 VITA IF YOU WANT TO FOLLOW THIS GUIDE. IF LOWER
-	FIRMWARE, UPDATE TO 3.60. IF HIGHER FIRMWARE, YOU ARE SCREWED, THERE IS NO DOWNGRADE.
-	To update to 3.60, follow @TRI2. Where can you find your firmware version? It's under
-	"Settings" > "System" > "System Information".
-	
-	  To navigate to desired section, search for the desired ID using Control+F (to navigate
-	 to the introduction, for example, search for @INT.) When referring internally to other
-	sections, the @ are not included on purpose. Sometimes, the handbook will refer to
-	files or software: if you have downloaded the Vita Handbook repository, all relevant files 
-	are within the download itself. No distincions will be made between the Vita 1000 and 2000:
-	hovewer, you will not be able to execute certain tricks if you do not own a memory card on 
-	the Vita 2000. This guide supports all OSes. File location will be noted [in brackets] with
-	 / representing the root of the archive. Requirements for each section will be specified
-	 with the equal sign =.
+        
+      In regards to Vita hacking, the scene has changed drastically with the release of the new
+     hack HENkaku. This has divided the Vita into two separate communities: 3.60 users, and
+    3.52 or lower users (with the edge case of 3.55 users.) In terms of writing a guide, this is
+    a hard decision to make, as trying to support both sides will end up in a guide overly 
+    complicated, and getting new users to a common point for support is much easier (why is why
+    I think Molecule made it so HENkaku only supports 3.60, and have to plans to port.)
+      After deliberation, this tutorial will only support 3.60 users, as they vastly outclass
+     what >3.52 Vitas can do. The only advantage of a 3.52 Vita at the time of writing is the
+    ability to play PSP ISOs, an ability that I'm sure 3.60 users will gain in due time.
+    
+     So, here it is in all caps: GET A 3.60 VITA IF YOU WANT TO FOLLOW THIS GUIDE. IF LOWER
+    FIRMWARE, UPDATE TO 3.60. IF HIGHER FIRMWARE, YOU ARE SCREWED, THERE IS NO DOWNGRADE.
+    To update to 3.60, follow TRI2. Where can you find your firmware version? It's under
+    "Settings" > "System" > "System Information".
+    
+      To navigate to desired section, search for the desired ID using Control+F (to navigate
+     to the introduction, for example, search for @INT.) When referring internally to other
+    sections, the @ are not included on purpose. Sometimes, the handbook will refer to
+    files or software: if you have downloaded the Vita Handbook repository, all relevant files 
+    are within the download itself. No distincions will be made between the Vita 1000 and 2000:
+    hovewer, you will not be able to execute certain tricks if you do not own a memory card on 
+    the Vita 2000. This guide supports all OSes. File location will be noted [in brackets] with
+     / representing the root of the archive. Requirements for each section will be specified
+     with the equal sign =.
+
                      _                                             
         _/_      /  //         /)               _/_         _/_   
         /  __.  /__// _    _  //    _. _  __    /  _  __    /  _  
        <__(_/|_/_)</_</_  (_)//_   (__(_)/ / <_<__</_/ / <_<__/_)_ @TOC
         _____________________/>__________________________________________________________________
-	                        </                                     
-	  * | Introduction | @INT
-	  
-	  * | Table of Contents | @TOC
-	  
-	  * | Tricks | @TRI
-	 1. QCMA - Alternate Content Manager Assistant | @TRI1
-	 2. QCMA - Updating to 3.60 | @TRI2
-	a. Alternative - PSTV 3.60 update | @TRI2A
-	 3. HENkaku - Installing HENkaku and getting access to the Vita filesystem | @TRI3
-	a. Using HENkaku as a Content Manager replacement for videos, pictures, music | @TRI3A
-	b. Unenslaving the memory card with HENkaku | @TRI3B
-	C. Re-installing HENkaku without an internet connection | @TRI3C
-	 4. Getting new content (games, etc) on the Vita and activation (Any) | @TRI4
-	a. Alternative - Dual Vita transfer | @TRI4A
-	 5. Installing VHBL | @TRI5
-	 6. Custom theme installation and information | @TRI6
-	 7. app.db editing: customise your LiveArea | @TRI7
-	 
-	  * | Advanced Tricks | @ATR	 
-	 8. Registry hacking: advanced Vita manipulation | @TRI8
-	a. Faking Vita region | @TRI8A
-	b. Swapping X and O | @TRI-B
-	c. Enabling Semi-Debug mode | @TRI8C
-	d. Changing AccountID - restore ANY Vita system backup | @TRI8D
-	 9. Account swap - host multiple accounts on a single memory card | @TRI9
-	a. Account swap via AccountID change | @TRI9A
-	 10. Game and savedata dumping: dump entire decrypted games and saves | @ TRI10
-	a. Writing to gamecart - mod a game permanently or replace it with homebrew | @TRI10A
+                            </                                     
+      * | Introduction | @INT
+      
+      * | Table of Contents | @TOC
+    
+      * | Tricks | @TRI
+     1. QCMA - Alternate Content Manager Assistant | @TRI1
+     2. QCMA - Updating to 3.60 | @TRI2
+    a. Alternative - PSTV 3.60 update | @TRI2A
+     3. HENkaku - Installing HENkaku and getting access to the Vita filesystem | @TRI3
+    a. Using HENkaku as a Content Manager replacement for videos, pictures, music | @TRI3A
+    b. Unenslaving the memory card with HENkaku | @TRI3B
+    C. Re-installing HENkaku without an internet connection | @TRI3C
+     4. Getting new content (games, etc) on the Vita and activation (Any) | @TRI4
+    a. Alternative - Dual Vita transfer | @TRI4A
+     5. Installing VHBL | @TRI5
+     6. Custom theme installation and information | @TRI6
+     7. app.db editing: customise your LiveArea | @TRI7
+     
+      * | Advanced Tricks | @ATR     
+     8. Registry hacking: advanced Vita manipulation | @TRI8
+    a. Faking Vita region | @TRI8A
+    b. Swapping X and O | @TRI-B
+    c. Enabling Semi-Debug mode | @TRI8C
+    d. Changing AccountID - restore ANY Vita system backup | @TRI8D
+     9. Account swap - host multiple accounts on a single memory card | @TRI9
+    a. Account swap via AccountID change | @TRI9A
+     10. Game and savedata dumping: dump entire decrypted games and saves | @ TRI10
+    a. Writing to gamecart - mod a game permanently or replace it with homebrew | @TRI10A
 
-	  * | Credits | @CDT
-	  
+      * | Credits | @CDT
+      
          _/_          /     
          /  __  o _. /_  _  
         <__/ (_<_(__/ <_/_)_ @TRI
         _________________________________________________________________________________________
 
        1. QCMA - Alternate Content Manager Assistant | @TRI1
-	   ######################################################################################
-	   
-	   CMA is an alternative content manager assistant, and vital for doing anything on your
-	 Vita. It will be required for most tutorials below, and is as well a good alternative to
-	Sony's CMA for casual use.
-	 
-	  = QCMA works on any firmware.
-	  
-	  To install QCMA, simply run the corresponding file [/QCMA/QCMA Windows.exe; 
-	 /QCMA/QCMA OSX.dmg; /QCMA/QCMA *nix-etc.bz2;
-	/QCMA/QCMA *nix-etc x64.bz2.].
-	 
-	  QCMA has a whole slew of options, the most notable being:
-	  * QCMA allows you to set directories for update files as well as packages. The former
-	 is useful for manual firmware updating, while the latter is useful for packages.
-	  * QCMA allows an offline mode, which can be used to bypass update nags when not on 
-	 latest firmware. To use it, your Vita has to be in Airplane mode (make sure you restart
-	it once you go into airplane mode to block properly.)
-	  * QCMA allows you to set a custom CMA protocol based on your Vita firmware (for
-	 example, if on 3.18, you will have to use the FW 3.10 - 1800010 protocol) as well as
-	custom protocols.
-	
-	   2. QCMA - Updating to 3.60 | @TRI2
-	   ######################################################################################
-	   
-	   Repeating again; if you are on a higher firmware than 3.60, there is NO DOWNGRADE. You
-	  will not be able to execute the rest of this guide. This will allow you to update
-	 to 3.60 from any firmware. Note that the procedure is different for Vita TV users: follow 
-	 @TRI2A.
-	 
-	  = QCMA
-	  
-	   1. Find the 3.60 update file [/PSP2UPDAT.PUP] and copy it to your QCMA update folder
-	  (to set this, right click QCMA and go in "Settings", then set the "Update" folder, fifth
-	 from the top.) You will also need the xml file [/psp2-updatelist.xml] and place it in
-	 the same folder. Currently regions eu/us/jp/uk are included, if there is a region that is
-	 not in the XML, edit it manually and notify me.
-	   2. Go into airplane mode and restart your Vita (just in case.)
-	   3. Launch QCMA and plug your Vita via USB.
-	   4. From "Settings", select "System Update", then "Update from PC."
-	   5. Check that the update says "Firmware 3.60" and NOTHING ELSE, then update your Vita.
-	   
-	  a. Alternative - PSTV 3.60 update | @TRI2A
-	  ######################################################################################
-	  
-	   The procedure to update to 3.60 on a PSTV is a little bit different, but still managable.
-	  
-	  = An USB stick
-	 
-	   1. Find the 3.60 update file [/PSP2UPDAT.PUP] and rename it to "PSVUPDAT.PUP".
-	   2. On the USB stick, create the directory "PSVITA", then "UPDATE" inside that directory.
-	  The path should now look like this: "/PSVITA/UPDATE".
-	   3. Transfer "PSVUPDAT.PUP" to that folder.
-	   4. Turn off your PSTV, then reboot in Safe Mode by holding POWER for 7 seconds on startup.
-	   5. Select "Update System Software" then "Update to USB storage device."
-	   6. Update.
+       ######################################################################################
+       
+       CMA is an alternative content manager assistant, and vital for doing anything on your
+     Vita. It will be required for most tutorials below, and is as well a good alternative to
+    Sony's CMA for casual use.
+     
+      = QCMA works on any firmware.
+      
+      To install QCMA, simply run the corresponding file [/QCMA/QCMA Windows.exe; 
+     /QCMA/QCMA OSX.dmg; /QCMA/QCMA *nix-etc.bz2;
+    /QCMA/QCMA *nix-etc x64.bz2.].
+     
+      QCMA has a whole slew of options, the most notable being:
+      * QCMA allows you to set directories for update files as well as packages. The former
+     is useful for manual firmware updating, while the latter is useful for packages.
+      * QCMA allows an offline mode, which can be used to bypass update nags when not on 
+     latest firmware. To use it, your Vita has to be in Airplane mode (make sure you restart
+    it once you go into airplane mode to block properly.)
+      * QCMA allows you to set a custom CMA protocol based on your Vita firmware (for
+     example, if on 3.18, you will have to use the FW 3.10 - 1800010 protocol) as well as
+    custom protocols.
+    
+       2. QCMA - Updating to 3.60 | @TRI2
+       ######################################################################################
+       
+       Repeating again; if you are on a higher firmware than 3.60, there is NO DOWNGRADE. You
+      will not be able to execute the rest of this guide. This will allow you to update
+     to 3.60 from any firmware. Note that the procedure is different for Vita TV users: follow 
+     @TRI2A.
+     
+      = QCMA
+      
+       1. Find the 3.60 update file [/PSP2UPDAT.PUP] and copy it to your QCMA update folder
+      (to set this, right click QCMA and go in "Settings", then set the "Update" folder, fifth
+     from the top.) You will also need the xml file [/psp2-updatelist.xml] and place it in
+     the same folder. Currently regions eu/us/jp/uk are included, if there is a region that is
+     not in the XML, edit it manually and notify me.
+       2. Go into airplane mode and restart your Vita (just in case.)
+       3. Launch QCMA and plug your Vita via USB.
+       4. From "Settings", select "System Update", then "Update from PC."
+       5. Check that the update says "Firmware 3.60" and NOTHING ELSE, then update your Vita.
+       
+      a. Alternative - PSTV 3.60 update | @TRI2A
+      ######################################################################################
+      
+       The procedure to update to 3.60 on a PSTV is a little bit different, but still managable.
+      
+      = An USB stick
+     
+       1. Find the 3.60 update file [/PSP2UPDAT.PUP] and rename it to "PSVUPDAT.PUP".
+       2. On the USB stick, create the directory "PSVITA", then "UPDATE" inside that directory.
+      The path should now look like this: "/PSVITA/UPDATE".
+       3. Transfer "PSVUPDAT.PUP" to that folder.
+       4. Turn off your PSTV, then reboot in Safe Mode by holding POWER for 7 seconds on startup.
+       5. Select "Update System Software" then "Update to USB storage device."
+       6. Update.
 
        3. HENkaku - Installing HENkaku and getting access to the Vita filesystem | @TRI3
-	   ######################################################################################
-	  
-	  HENkaku has become the essential hack for the Vita, taking over the now obsolete
-	 MailWriter exploit that allowed writing any file anywhere to your Vita, and making it
-	easier and faster to use, with no size limitations. HENkaku also allows to install
-	homebrew in .VPK format, allowing the use of emulators, homebrew games and applications.
-	
-	  = Firmware 3.60
-	  = A memory card with ~10MB avaible
-	  
-	  1. Open the "Browser" and type this URL: "henkaku.xyz". From here, tap the "Install"
-	 button and accept to install HENkaku. The exploit is unreliable: if you get the "C2-12828"
-	error, try again, then again, then close the browser entirely (by peeling it off) and try
-	again. Be patient, it can take a lot of tries.
-	  2. After a successful entry, the browser will be taken over and the "molecule" logo will
-	 display on the lower left corner of the screen. From there, simply wait for the install to
-	finish; the browser will close automatically.
-	  3. A new bubble will appear named "molecularShell", granting full access to the filesystem.
- 	 
-	  Each time you will power off your Vita, you will need to install HENkaku again. As this
-	 can be a frustating process, I recommend not powering off your Vita - ever - unless it
-	requires it.
-	
-	  You will need a FTP client to transfer files to your Vita. I recommend Filezilla: you can
-	 find the respective installers under [/Filezilla]. FTP clients are also avaible for
-	smartphones as well. To transfer files, go to molecularShell, press SELECT on your Vita,
-	then copy the adress to the FTP client, set the port to 1337, and connect.
-	
-	  How to install homebrew? Simply find the homebrew you want in .vpk format, transfer it
-	 anywhere you want onto your vita (I recommend making a vpk folder under ux0: for this),
-	then on molecularShell press X and install the package.
-	
-	  To write or delete files, simply use FTP. There are basic functions for file management
-	 avaible natively under molecularShell as well. More advanced users might notice that
-	some partitions are hidden: just write the partition name under "Remote site" (if using 
-	FileZilla) in FTP to access it. Alternatively, you can also use the original VitaShell
-	(included in this guide under [/VitaShell.vpk]) which offers some bugfixes and shows
-	all partitions natively, if you are going to do more with FTP than transferring homebrew.
-	
-	  Most of all, if you simply want to mess around, some info is included with the handbook:
-	 [Filesystem Listing.txt] lists all the avaible file on a stock 3.30 Vita, which are all
-	dumpable.
-		  
-	  a. Using HENkaku as a Content Manager replacement for videos, pictures, music | @TRI3A
-	  ######################################################################################
-	  
-	   This is a simple trick, but the information is so important it deserves a separate
-	  tutorial. You might have noticed that HENkaku could access the Vita filesystem: does
-	 this mean you can use it as a replacement for CM? The answer is yes, although not
-	 for games: you will still need to use CM for this. Note that this works in both directions:
-	 you can both transfer and recieve with this.
-	 
-	   For pictures, screenshots are located at ux0:picture/SCREENSHOT/(numbered folder). Camera
-	  shots are located at ux0:picture/CAMERA/(numbered folder). Transferred content is under
-	 ux0:picture/ALL.
-	   For music, all music is under ux0:music/.
-	   For videos, all music is under ux0:video/.
-	   
-	  b. Unenslaving the memory card with HENkaku | @TRI3B
-	  ######################################################################################
-	  
-	   Another simple trick, yet which has a ton of uses. In a normal usage environement you
-	  can only use a memory card with a specific Vita and account. Thanfully Sony stored it on
-	 a very safe place: the exact directory is ux0:id.dat and removing this file will allow the
-	 memory card to be used on ANY vita in the world for a single use. (The id.dat is
-	 regenerated when you put the memory card in a Vita and power it on.
-	   The main use of this trick is being able to swap memory cards without formatting (if
-	  you own multiple memory cards, or want to use one of a friend, for example.)
-	 
-	  c. Re-installing HENkaku without an internet connection | @TRI3C
-	  #####################################################################################
-	  
-	   Sometimes your Vita will crash out of nowhere, and there's no Wi-Fi to be found anywhere
-	  nearby.. However, HENkaku can also be re-installed offline, without an internet connection.
-	 Note that this will NOT work for the initial install, only for later "activations", as
-	 HENkaku needs to be re-installed after a reboot.
-	 
-	   = HENkaku
-	   
-	   1. Find the [/HENkaku Offline.vpk] package and FTP it to your Vita.
-	   2. Install the package and run the installer.
-	   3. Open the "Email" app with Wi-Fi disabled and HENkaku not installed. If it asks you to
-	  enable Wi-Fi, decline.
-	   4. If you have multiple accounts, select the "HENkaku Offline" account.
-	   5. Go in "Inbox", then select the first e-mail.
-	   6. Wait 10 to 20 seconds. You might get a "Please wait.." screen, or an "An error has
-	  occured" screen, both several times in a row. If they appear more than four or five times
-	 in a row, reboot your Vita and try again.
-	 
-	   You should not delete the bubble after HENkaku is installed again. To uninstall the
-	  exploit, run the installer and press Circle to uninstall.
-	  	
-	   4. Getting new content (games, etc) on the Vita and activation | @TRI4
-	   ######################################################################################
-	  
-	  One of the first things you may notice upon getting an older firmware Vita is the inability
-	 to do pretty much anything. Sony gated older firmwares very restrictively on purpose in
-	order to force people to update to newer firmwares and have as little people as possible on
-	old firmwares. The most crippling is the inability to get new games, which is required for
-	most exploits.. hovewer, there is a way around this. This method will also activate your
-	Vita.
-	
-	  = A PS3
-	  = An USB cable
-	  = QCMA
-	  
-	  1. Download desired content on the PS3.
-	  2. Set the Vita to airplane mode and reboot. Set QCMA to "Offline Mode."
-	  3. Connect your Vita to your PC. Once it has connected, plug out the USB cable; do not
-	 click OK on the error message just yet!
-	  4. Connect your Vita to your PS3 and click OK on the error message. Now you should be
-	 able to connect to the PS3 safely, and transfer the desired content. Note that transfer
-	will also conveniently activate your Vita.
-	
-	  4a. Alternative - Dual Vita transfer | @TRI4A
-	  #######################################################################################
-	  
-	  Don't own a PS3? As long as you own another Vita with your account on it, you are still
-	 able to transfer games back to your older firmware Vita. Note that this does NOT activate
-	the account: you need a PS3 for that, and there is no way around it. This will also not
-	work for transferring PS1/PSP games.
-	 
-	  = Two Vitas, one being on latest firmware (both on your account)
-	  = QCMA
-	  
-	  1. Download the desired content on the latest firmware Vita.
-	  2. Make a backup of the content and transfer it to your PC via QCMA.
-	  3. Set the older firmware Vita to airplane mode and reboot. Set QCMA to "Offline Mode."
-	  4. Connect your Vita to your PC and transfer the game backup to the older firmware Vita.
-	
-	   5. Installing VHBL | @TRI5
-	   ######################################################################################
-	
-	  VHBL only allows you to run homebrew and doens't give you access to the full
-	 unrestricted PSP environement. Using this, you can run any homebrew the PSP is able to
-	run, with some improved performance.
-	
-	  = HENkaku
-	  = Any PSP game/demo/mini (minis have limitations, use a PSP game if you can)
-	  
-	  1. Install your PSP game/demo/mini.
-	  2. FTP to your Vita.
-	  3. Navigate to "ux0:pspemu/PSP/GAME/XXXXXXXXXX" where XXXXXXXXXX is your game name.
-	 You can guess the correct game by going inside the folders and looking at the pngs, or
-	knowing the game ID. Once done, transfer [/VHBL/PBOOT.PBP] to that location.
-	  4. Navigate to "ux0:pspemu/PSP/SAVEDATA and transfer [/VHBL/VHBL01234] to that location.
-	  5. Power off your Vita and boot into recovery mode by holding POWER + R + PS. Select 
-	 "Rebuild Database". You now have VHBL!
-	 
-	  If you are familiar with PSP homebrew, you know that homebrew was transfered to /PSP/GAME
-	 (putting the entire folder.) Here it is the exact same thing, but homebrew is transferred
-	to "ux0:pspemu/PSP/VHBL" then transferring the folder. For example, if you want to transfer
-	gPSP, your path would look like this: "ux0:pspemu/PSP/VHBL/GPSP".
-	 
-	  For lazy users, a complete homebrew pack has been put in [/VHBL/Starter Pack]. Simply
-	 transfer its contents to "ux0:pspemu/PSP/VHBL". (Thanks to RushNY for the original, I did
-	some additions.)
-	 
-	   6. Custom theme installation and information | @TRI6
-	   ######################################################################################
-	   
-	  This is pretty self-explainatory. Custom themes allow to customise the entire LiveArea
-	 environement, and with new tools it is possible to fake them as real themes, essentially
-	having all functioniality from official themes. A collection of custom themes can be
-	found at https://www.reddit.com/r/vitathemes and you can post your own themes as well.
-	
-	  = HENkaku
-	  
-	  1. FTP to your Vita.
-	  2. Open the Theme Installer, under [/Theme Installer/Theme Installer.exe] or 
-	 [/Theme Installer/PSVita_DB_Theme_Installer_360.jar].
-	  3. Type in the IP adress and port of your Vita, they should be displayed on screen.
-	  4. Select the folder of your custom theme.
-	  5. Click "Install Custom theme". You can now use the theme as an official theme.
-	  
-	  Some useful info: all information is contained in theme.xml. You can open it via any
-	 text editor. Once here, you can modify all information about the theme as well, including
-	 icons, color of the top bar, BGM, the wave effect in use, background et cetera.
-	 Of particular note is editing the BGM, which is in at9 format. This is Sony's proprietary
-	 format, and redistribitung the tool to create at9 audio is questionable: you're on your own.
-	 
-	   7. app.db editing: customise your LiveArea | @TRI7
-	   ######################################################################################
-	   
-	  Editing app.db is the ultimate layer of customisation. Database files hold crucial info
-	 and here app.db is the LiveArea database, allowing you to customise bubble BGs and icons,
-	what icons show up or not, etc. This is an online tool; to use it, follow the link below.
-	  https://anthe.studio/bubblestudio/
-	  	                                                         
+       ######################################################################################
+      
+      HENkaku has become the essential hack for the Vita, taking over the now obsolete
+     MailWriter exploit that allowed writing any file anywhere to your Vita, and making it
+    easier and faster to use, with no size limitations. HENkaku also allows to install
+    homebrew in .VPK format, allowing the use of emulators, homebrew games and applications.
+    
+      = Firmware 3.60
+      = A memory card with ~10MB avaible
+      
+      1. Open the "Browser" and type this URL: "henkaku.xyz". From here, tap the "Install"
+     button and accept to install HENkaku. The exploit is unreliable: if you get the "C2-12828"
+    error, try again, then again, then close the browser entirely (by peeling it off) and try
+    again. Be patient, it can take a lot of tries.
+      2. After a successful entry, the browser will be taken over and the "molecule" logo will
+     display on the lower left corner of the screen. From there, simply wait for the install to
+    finish; the browser will close automatically.
+      3. A new bubble will appear named "molecularShell", granting full access to the filesystem.
+     
+      Each time you will power off your Vita, you will need to install HENkaku again. As this
+     can be a frustating process, I recommend not powering off your Vita - ever - unless it
+    requires it.
+    
+      You will need a FTP client to transfer files to your Vita. I recommend Filezilla: you can
+     find the respective installers under [/Filezilla]. FTP clients are also avaible for
+    smartphones as well. To transfer files, go to molecularShell, press SELECT on your Vita,
+    then copy the adress to the FTP client, set the port to 1337, and connect.
+    
+      How to install homebrew? Simply find the homebrew you want in .vpk format, transfer it
+     anywhere you want onto your vita (I recommend making a vpk folder under ux0: for this),
+    then on molecularShell press X and install the package.
+    
+      To write or delete files, simply use FTP. There are basic functions for file management
+     avaible natively under molecularShell as well. More advanced users might notice that
+    some partitions are hidden: just write the partition name under "Remote site" (if using 
+    FileZilla) in FTP to access it. Alternatively, you can also use the original VitaShell
+    (included in this guide under [/VitaShell.vpk]) which offers some bugfixes and shows
+    all partitions natively, if you are going to do more with FTP than transferring homebrew.
+    
+      Most of all, if you simply want to mess around, some info is included with the handbook:
+     [Filesystem Listing.txt] lists all the avaible file on a stock 3.30 Vita, which are all
+    dumpable.
+          
+      a. Using HENkaku as a Content Manager replacement for videos, pictures, music | @TRI3A
+      ######################################################################################
+      
+       This is a simple trick, but the information is so important it deserves a separate
+      tutorial. You might have noticed that HENkaku could access the Vita filesystem: does
+     this mean you can use it as a replacement for CM? The answer is yes, although not
+     for games: you will still need to use CM for this. Note that this works in both directions:
+     you can both transfer and recieve with this.
+     
+       For pictures, screenshots are located at ux0:picture/SCREENSHOT/(numbered folder). Camera
+      shots are located at ux0:picture/CAMERA/(numbered folder). Transferred content is under
+     ux0:picture/ALL.
+       For music, all music is under ux0:music/.
+       For videos, all music is under ux0:video/.
+       
+      b. Unenslaving the memory card with HENkaku | @TRI3B
+      ######################################################################################
+      
+       Another simple trick, yet which has a ton of uses. In a normal usage environement you
+      can only use a memory card with a specific Vita and account. Thanfully Sony stored it on
+     a very safe place: the exact directory is ux0:id.dat and removing this file will allow the
+     memory card to be used on ANY vita in the world for a single use. (The id.dat is
+     regenerated when you put the memory card in a Vita and power it on.
+       The main use of this trick is being able to swap memory cards without formatting (if
+      you own multiple memory cards, or want to use one of a friend, for example.)
+     
+      c. Re-installing HENkaku without an internet connection | @TRI3C
+      #####################################################################################
+      
+       Sometimes your Vita will crash out of nowhere, and there's no Wi-Fi to be found anywhere
+      nearby.. However, HENkaku can also be re-installed offline, without an internet connection.
+     Note that this will NOT work for the initial install, only for later "activations", as
+     HENkaku needs to be re-installed after a reboot.
+     
+       = HENkaku
+       
+       1. Find the [/HENkaku Offline.vpk] package and FTP it to your Vita.
+       2. Install the package and run the installer.
+       3. Open the "Email" app with Wi-Fi disabled and HENkaku not installed. If it asks you to
+      enable Wi-Fi, decline.
+       4. If you have multiple accounts, select the "HENkaku Offline" account.
+       5. Go in "Inbox", then select the first e-mail.
+       6. Wait 10 to 20 seconds. You might get a "Please wait.." screen, or an "An error has
+      occured" screen, both several times in a row. If they appear more than four or five times
+     in a row, reboot your Vita and try again.
+     
+       You should not delete the bubble after HENkaku is installed again. To uninstall the
+      exploit, run the installer and press Circle to uninstall.
+        
+       4. Getting new content (games, etc) on the Vita and activation | @TRI4
+       ######################################################################################
+      
+      One of the first things you may notice upon getting an older firmware Vita is the inability
+     to do pretty much anything. Sony gated older firmwares very restrictively on purpose in
+    order to force people to update to newer firmwares and have as little people as possible on
+    old firmwares. The most crippling is the inability to get new games, which is required for
+    most exploits.. hovewer, there is a way around this. This method will also activate your
+    Vita.
+    
+      = A PS3
+      = An USB cable
+      = QCMA
+      
+      1. Download desired content on the PS3.
+      2. Set the Vita to airplane mode and reboot. Set QCMA to "Offline Mode."
+      3. Connect your Vita to your PC. Once it has connected, plug out the USB cable; do not
+     click OK on the error message just yet!
+      4. Connect your Vita to your PS3 and click OK on the error message. Now you should be
+     able to connect to the PS3 safely, and transfer the desired content. Note that transfer
+    will also conveniently activate your Vita.
+    
+      4a. Alternative - Dual Vita transfer | @TRI4A
+      #######################################################################################
+      
+      Don't own a PS3? As long as you own another Vita with your account on it, you are still
+     able to transfer games back to your older firmware Vita. Note that this does NOT activate
+    the account: you need a PS3 for that, and there is no way around it. This will also not
+    work for transferring PS1/PSP games.
+     
+      = Two Vitas, one being on latest firmware (both on your account)
+      = QCMA
+      
+      1. Download the desired content on the latest firmware Vita.
+      2. Make a backup of the content and transfer it to your PC via QCMA.
+      3. Set the older firmware Vita to airplane mode and reboot. Set QCMA to "Offline Mode."
+      4. Connect your Vita to your PC and transfer the game backup to the older firmware Vita.
+    
+       5. Installing VHBL | @TRI5
+       ######################################################################################
+    
+      VHBL only allows you to run homebrew and doens't give you access to the full
+     unrestricted PSP environement. Using this, you can run any homebrew the PSP is able to
+    run, with some improved performance.
+    
+      = HENkaku
+      = Any PSP game/demo/mini (minis have limitations, use a PSP game if you can)
+      
+      1. Install your PSP game/demo/mini.
+      2. FTP to your Vita.
+      3. Navigate to "ux0:pspemu/PSP/GAME/XXXXXXXXXX" where XXXXXXXXXX is your game name.
+     You can guess the correct game by going inside the folders and looking at the pngs, or
+    knowing the game ID. Once done, transfer [/VHBL/PBOOT.PBP] to that location.
+      4. Navigate to "ux0:pspemu/PSP/SAVEDATA and transfer [/VHBL/VHBL01234] to that location.
+      5. Power off your Vita and boot into recovery mode by holding POWER + R + PS. Select 
+     "Rebuild Database". You now have VHBL!
+     
+      If you are familiar with PSP homebrew, you know that homebrew was transfered to /PSP/GAME
+     (putting the entire folder.) Here it is the exact same thing, but homebrew is transferred
+    to "ux0:pspemu/PSP/VHBL" then transferring the folder. For example, if you want to transfer
+    gPSP, your path would look like this: "ux0:pspemu/PSP/VHBL/GPSP".
+     
+      For lazy users, a complete homebrew pack has been put in [/VHBL/Starter Pack]. Simply
+     transfer its contents to "ux0:pspemu/PSP/VHBL". (Thanks to RushNY for the original, I did
+    some additions.)
+     
+       6. Custom theme installation and information | @TRI6
+       ######################################################################################
+       
+      This is pretty self-explainatory. Custom themes allow to customise the entire LiveArea
+     environement, and with new tools it is possible to fake them as real themes, essentially
+    having all functioniality from official themes. A collection of custom themes can be
+    found at https://www.reddit.com/r/vitathemes and you can post your own themes as well.
+    
+      = HENkaku
+      
+      1. FTP to your Vita.
+      2. Open the Theme Installer, under [/Theme Installer/Theme Installer.exe] or 
+     [/Theme Installer/PSVita_DB_Theme_Installer_360.jar].
+      3. Type in the IP adress and port of your Vita, they should be displayed on screen.
+      4. Select the folder of your custom theme.
+      5. Click "Install Custom theme". You can now use the theme as an official theme.
+      
+      Some useful info: all information is contained in theme.xml. You can open it via any
+     text editor. Once here, you can modify all information about the theme as well, including
+     icons, color of the top bar, BGM, the wave effect in use, background et cetera.
+     Of particular note is editing the BGM, which is in at9 format. This is Sony's proprietary
+     format, and redistribitung the tool to create at9 audio is questionable: you're on your own.
+     
+       7. app.db editing: customise your LiveArea | @TRI7
+       ######################################################################################
+       
+      Editing app.db is the ultimate layer of customisation. Database files hold crucial info
+     and here app.db is the LiveArea database, allowing you to customise bubble BGs and icons,
+    what icons show up or not, etc. This is an online tool; to use it, follow the link below.
+      https://anthe.studio/bubblestudio/
+                                                                 
                 /                      /   _/_          /     
         __.  __/, ___.  ____  _. _  __/    /  __  o _. /_  _  
        (_/|_(_/_\/(_/|_/ / <_(__</_(_/_   <__/ (_<_(__/ <_/_)_ @ATR
         _________________________________________________________________________________________
-		
-	  From this section onwards, tricks will get much more advanced and difficult to pull off.
-	 While the tricks above could be done with simply being able to follow instructions, the next
-	will take some more skill to pull off. In short: do not do this if you don't know what you
-	are doing, and stick to instructions.
-	
-	   8. Registry hacking: advanced Vita manipulation | @TRI8
-	   ######################################################################################
-	   
-	  The registry, located at vs0:registry/registry.dreg, is one of the most important files
-	 on the entire Vita: it contains all your account information. The following subtutorials
-	will allow you to use this file for advanced tweaks. All subtutorials will also require
-	an hex editor, such as HxD. For each tutorial, you will need to dump both 
-	vs0:registry/registry.dreg and vs0:registry/registry.ireg, and use [/fixreg_vita.exe] for
-	each modification.
-	
-	  a. Faking Vita region | @TRI8A
-	  ######################################################################################
-	  
-	  Faking the Vita region will allow you to play out of region games (although the Vita
-	 is regionfree in the first place) and, most importantly, for EU users, remove AVLS!!
-	 
-	  = HENkaku
-	  = An hex editor 
-	  
-	  1. Dump system.dreg and system.ireg then run fixreg_vita.exe with these two files in the
-	 same directory.
-	  2. Open system.dreg with your hex editor. Search for a string saying "region_no"; one
-	 line below, there should be a single byte with a number in a line of 00. Modify it to match
-	your new region:
-	  * 01 for Japan            * 07 for Australia
-	  * 02 for America          * 08 for Hongkong
-	  * 03 for Europe           * 09 for Taiwan
-	  * 04 for Korea            * 0a for Russia
-	  * 05 for United Kingdom   * 0d for China
-	  * 06 for United Kingdom 2
-	  All other values are invalid. Once done, FTP system.dreg back to your Vita.
-	
-	  b. Swapping X and O | @TRI8B
-	  ######################################################################################
-	  
-	  Self explainatory: X becomes O and vice-versa.
-	  
-	  = HENkaku
-	  = An hex editor
-	  
-	  1. Dump system.dreg and system.ireg .
-	  2. Open system.dreg with your hex editor. Search for a string saying "button_assign"; one
-	 line below, there should be a single byte with a number in a line of 00. Modify it to match
-	your new button assignement:
-	  * 00 makes O enter          * 01 makes X enter
-	  All other values are invalid. Once done, FTP system.dreg back to your Vita.
+        
+      From this section onwards, tricks will get much more advanced and difficult to pull off.
+     While the tricks above could be done with simply being able to follow instructions, the next
+    will take some more skill to pull off. In short: do not do this if you don't know what you
+    are doing, and stick to instructions.
+    
+       8. Registry hacking: advanced Vita manipulation | @TRI8
+       ######################################################################################
+       
+      The registry, located at vs0:registry/registry.dreg, is one of the most important files
+     on the entire Vita: it contains all your account information. The following subtutorials
+    will allow you to use this file for advanced tweaks. All subtutorials will also require
+    an hex editor, such as HxD. For each tutorial, you will need to dump both 
+    vs0:registry/registry.dreg and vs0:registry/registry.ireg, and use [/fixreg_vita.exe] for
+    each modification.
+    
+      a. Faking Vita region | @TRI8A
+      ######################################################################################
+      
+      Faking the Vita region will allow you to play out of region games (although the Vita
+     is regionfree in the first place) and, most importantly, for EU users, remove AVLS!!
+     
+      = HENkaku
+      = An hex editor 
+      
+      1. Dump system.dreg and system.ireg then run fixreg_vita.exe with these two files in the
+     same directory.
+      2. Open system.dreg with your hex editor. Search for a string saying "region_no"; one
+     line below, there should be a single byte with a number in a line of 00. Modify it to match
+    your new region:
+      * 01 for Japan            * 07 for Australia
+      * 02 for America          * 08 for Hongkong
+      * 03 for Europe           * 09 for Taiwan
+      * 04 for Korea            * 0a for Russia
+      * 05 for United Kingdom   * 0d for China
+      * 06 for United Kingdom 2
+      All other values are invalid. Once done, FTP system.dreg back to your Vita.
+    
+      b. Swapping X and O | @TRI8B
+      ######################################################################################
+      
+      Self explainatory: X becomes O and vice-versa.
+      
+      = HENkaku
+      = An hex editor
+      
+      1. Dump system.dreg and system.ireg .
+      2. Open system.dreg with your hex editor. Search for a string saying "button_assign"; one
+     line below, there should be a single byte with a number in a line of 00. Modify it to match
+    your new button assignement:
+      * 00 makes O enter          * 01 makes X enter
+      All other values are invalid. Once done, FTP system.dreg back to your Vita.
 
-	  c. Enabling Semi-Debug mode | @TRI8C
-	  ######################################################################################
-	  
-	  Semi-Debug mode is a special mode for the Vita, allowing to display more detailled info
-	 about bubbles.
-	  
-	  = HENkaku
-	  = An hex editor
-	  
-	  1. Dump system.dreg and system.ireg.
-	  2. Open system.dreg with your hex editor. Search for a string saying "enable_np"; one
-	 line below, there should be a single byte with a number in a line of 00. Modify it to match
-	your new semi-debug mode status:
-	  * 00 makes SDB  disabled    * 01 makes SDB enabled
-	  All other values are invalid. Once done, FTP system.dreg back to your Vita.
-	
-	  d. Changing AccountID - restore ANY Vita system backup | @TRI8D
-	  ######################################################################################
-	  
-	  The AccountID is a single 16 byte hex string located in your registry. In particular, it
-	 is important because your AccountID determines your 'identity' while transferring files
-	over CM. This means, if you are able to change the AccountID, you are able to suddently use
-	someone's else files! As expected, most things don't work with this, but there is one
-	surprising exception: system backups (as in, backups of the ENTIRE system.) As such, getting
-	another backup is equivalent to changing account, without the whole account part.
-	
-	  = HENkaku
-	  = An hex editor
-	  = Your AccountID and the AccountID of the Vita who supplied the backup
-	  = A system backup
-	  = QCMA
-	  
-	  1. To know your AccountID, simply go in your QCMA directory and in the "Save" folder:
-	 the random string is your AccountID. Ask the same of the Vita owner who provided the backup.
-	  2. Switch into Airplane mode and reboot: this is important for later.
-	  3. Dump system.dreg and system.ireg.
-	  4. Open system.dreg with your hex editor. Search for a string saying "privacy_confirmation"
-	 and four lines above, you should find your AccountID. Alternatively, you can simply search
-	for your current AccountID. Replace it with the one of the backup you want to replace.
-	  5. FTP system.dreg back to your vita. Keep the old registry as a backup.
-	  6. FROM THIS POINT ON, DO NOT POWER OFF YOUR VITA.
-	  7. Double-check you are in Airplane Mode; if not, immediatly stop, restore your backup,
-	 reboot and try again.
-	  8. Set QCMA to "Offline Mode", then open Content Manager and connect.
-	  9. Start making a system backup, then immediatly cancel. This 'refreshes' the list of 
-	 avaible backups.
-	  10. Select the new backup and restore!
-	  
-	  So, what can you do with this trick? This is probably one of the wierdest things I have
-	 seen in my entire hacking career; normally this would break any other console wide open,
-	yet for the Vita it does almost nothing, because one other very solid layer still protects
-	the Vita: activation. However, there's still quite a bit you can do with this trick:
-	alone, it can allow you to get any file you want on any firmware, in combinaison with
-	some of the other methods listed here. I will not get into this as it would only bloat
-	the guide, but simply know that this has been largely unexplored and has a lot of potential.
-	
-	  For those who are interested in some more details: act.dat is an encrypted file which
-	 dictates whether a Vita is activated or not. If it's there and valid, the Vita is activated
-	and can play games! Even with all the other checks bypassed and NPDRM cracked (due to simply
-	transferring over the files) nothing is doable with activation, and the only way to do so
-	is activate via Internet or transfer a file from a PS3 with the same account.
-	  You might say: 'but if we have access to the backup owner's PS3, can't we get unrestricted
-	 access to his games?' You can, it's just incredibly long to do, but it's technically piracy.
-	Do this if the backup owner is paranoid of giving his account ever and he's a close friend,
-	I guess, although simply sharing the account is much faster.
+      c. Enabling Semi-Debug mode | @TRI8C
+      ######################################################################################
+      
+      Semi-Debug mode is a special mode for the Vita, allowing to display more detailled info
+     about bubbles.
+      
+      = HENkaku
+      = An hex editor
+      
+      1. Dump system.dreg and system.ireg.
+      2. Open system.dreg with your hex editor. Search for a string saying "enable_np"; one
+     line below, there should be a single byte with a number in a line of 00. Modify it to match
+    your new semi-debug mode status:
+      * 00 makes SDB  disabled    * 01 makes SDB enabled
+      All other values are invalid. Once done, FTP system.dreg back to your Vita.
+    
+      d. Changing AccountID - restore ANY Vita system backup | @TRI8D
+      ######################################################################################
+      
+      The AccountID is a single 16 byte hex string located in your registry. In particular, it
+     is important because your AccountID determines your 'identity' while transferring files
+    over CM. This means, if you are able to change the AccountID, you are able to suddently use
+    someone's else files! As expected, most things don't work with this, but there is one
+    surprising exception: system backups (as in, backups of the ENTIRE system.) As such, getting
+    another backup is equivalent to changing account, without the whole account part.
+    
+      = HENkaku
+      = An hex editor
+      = Your AccountID and the AccountID of the Vita who supplied the backup
+      = A system backup
+      = QCMA
+      
+      1. To know your AccountID, simply go in your QCMA directory and in the "Save" folder:
+     the random string is your AccountID. Ask the same of the Vita owner who provided the backup.
+      2. Switch into Airplane mode and reboot: this is important for later.
+      3. Dump system.dreg and system.ireg.
+      4. Open system.dreg with your hex editor. Search for a string saying "privacy_confirmation"
+     and four lines above, you should find your AccountID. Alternatively, you can simply search
+    for your current AccountID. Replace it with the one of the backup you want to replace.
+      5. FTP system.dreg back to your vita. Keep the old registry as a backup.
+      6. FROM THIS POINT ON, DO NOT POWER OFF YOUR VITA.
+      7. Double-check you are in Airplane Mode; if not, immediatly stop, restore your backup,
+     reboot and try again.
+      8. Set QCMA to "Offline Mode", then open Content Manager and connect.
+      9. Start making a system backup, then immediatly cancel. This 'refreshes' the list of 
+     avaible backups.
+      10. Select the new backup and restore!
+      
+      So, what can you do with this trick? This is probably one of the wierdest things I have
+     seen in my entire hacking career; normally this would break any other console wide open,
+    yet for the Vita it does almost nothing, because one other very solid layer still protects
+    the Vita: activation. However, there's still quite a bit you can do with this trick:
+    alone, it can allow you to get any file you want on any firmware, in combinaison with
+    some of the other methods listed here. I will not get into this as it would only bloat
+    the guide, but simply know that this has been largely unexplored and has a lot of potential.
+    
+      For those who are interested in some more details: act.dat is an encrypted file which
+     dictates whether a Vita is activated or not. If it's there and valid, the Vita is activated
+    and can play games! Even with all the other checks bypassed and NPDRM cracked (due to simply
+    transferring over the files) nothing is doable with activation, and the only way to do so
+    is activate via Internet or transfer a file from a PS3 with the same account.
+      You might say: 'but if we have access to the backup owner's PS3, can't we get unrestricted
+     access to his games?' You can, it's just incredibly long to do, but it's technically piracy.
+    Do this if the backup owner is paranoid of giving his account ever and he's a close friend,
+    I guess, although simply sharing the account is much faster.
 
-	   9. Account swap - host multiple accounts on a single memory card | @TRI9
-	   ######################################################################################
-	
-	  The account system on the Vita is pretty broken, and access to the filesystem also means
-	 that you can get as much content as you want on a single memory card, even content your
-	account doens't own! However, the actual way to play this content is a little bit more 
-	complex: Sony made it so that all account files are directly on the memory card. As such,
-	simply replacing those files will allow you to switch accounts with ease and without
-	formatting. 
+       9. Account swap - host multiple accounts on a single memory card | @TRI9
+       ######################################################################################
+    
+      The account system on the Vita is pretty broken, and access to the filesystem also means
+     that you can get as much content as you want on a single memory card, even content your
+    account doens't own! However, the actual way to play this content is a little bit more 
+    complex: Sony made it so that all account files are directly on the memory card. As such,
+    simply replacing those files will allow you to switch accounts with ease and without
+    formatting. 
 
-	  = HENkaku
-	  = The PSN creditentials of the accounts you wish to add
+      = HENkaku
+      = The PSN creditentials of the accounts you wish to add
 
-	  1. Backup these four files on your account in a safe location:
-	  * vd0:registry/system.dreg  * tm0:npdrm/act.dat
-	  * vd0:registry/system.ireg  * ux0:id.dat
-	  (For more experienced users: you don't actually need to backup id.dat. id.dat is a file
-	 which contains information about your Vita, and if it doens't match with the registry will
-	ask you to format the memory card: you can simply delete it on each time you change accounts
-	instead.
-	  2. Format your Vita and sign up with your new account, then backup these files again.
-	 Repeat the process for each new account.
+      1. Backup these four files on your account in a safe location:
+      * vd0:registry/system.dreg  * tm0:npdrm/act.dat
+      * vd0:registry/system.ireg  * ux0:id.dat
+      (For more experienced users: you don't actually need to backup id.dat. id.dat is a file
+     which contains information about your Vita, and if it doens't match with the registry will
+    ask you to format the memory card: you can simply delete it on each time you change accounts
+    instead.
+      2. Format your Vita and sign up with your new account, then backup these files again.
+     Repeat the process for each new account.
 
-	  How do you switch the accounts? Simply replace these four files with the ones of your
-	 desired account. You can do this directly with molecularShell or VitaShell, as both allow
-	writing to this location.
+      How do you switch the accounts? Simply replace these four files with the ones of your
+     desired account. You can do this directly with molecularShell or VitaShell, as both allow
+    writing to this location.
 
-	  a. Account swap via AccountID change | @TRI9A
-	  ######################################################################################
+      a. Account swap via AccountID change | @TRI9A
+      ######################################################################################
 
-	  This is a more complex way of executing the account swap above, consisting of a method
-	 to acquire someone's else 'account' without having to obtain their PSN creditentials first.
-	However, the main limitation to this is the lack of activation, and as such you will not
-	be able to use the account's games unless the account owner has given you this file.
-	  This method is essentially glorified account sharing along with the other advantages.
+      This is a more complex way of executing the account swap above, consisting of a method
+     to acquire someone's else 'account' without having to obtain their PSN creditentials first.
+    However, the main limitation to this is the lack of activation, and as such you will not
+    be able to use the account's games unless the account owner has given you this file.
+      This method is essentially glorified account sharing along with the other advantages.
 
-	  = HENkaku
-	  = A system backup of the account you wish to add
+      = HENkaku
+      = A system backup of the account you wish to add
 
-	  1. Following @TRI8, obtain an system backup of the account you wish to acquire and 
-	 restore it.
-	  2. Back up these three files:
-	  * vd0:registry/system.dreg * ux0:id.dat
-	  * vd0:registry/system.ireg
+      1. Following @TRI8, obtain an system backup of the account you wish to acquire and 
+     restore it.
+      2. Back up these three files:
+      * vd0:registry/system.dreg * ux0:id.dat
+      * vd0:registry/system.ireg
 
-	  After this, you have secured the account and can swap back to your other account. Note that
-	 restoring a backup will wipe most of your data, so be sure to back up your memory card first
-	as well.
-		
-	   10. Game dumping: dump entire decrypted games (without eboot!)
-	   ######################################################################################
+      After this, you have secured the account and can swap back to your other account. Note that
+     restoring a backup will wipe most of your data, so be sure to back up your memory card first
+    as well.
+        
+       10. Game dumping: dump entire decrypted games (without eboot!)
+       ######################################################################################
 
-	  This tutorial will allow you to entirely dump games; this means the entire decrypted
-	 data of a downloaded digital game, allowing, for example, to extract assets (such as
-	music, backgrounds and models). Note that most music extracted from games will be in
-	.at9 (ATRAC) format: currently the only way to decrypt and encrypt ATRAC is via a
-	proprietary Sony tool that has been linked, and so I won't share it here.
+      This tutorial will allow you to entirely dump games; this means the entire decrypted
+     data of a downloaded digital game, allowing, for example, to extract assets (such as
+    music, backgrounds and models). Note that most music extracted from games will be in
+    .at9 (ATRAC) format: currently the only way to decrypt and encrypt ATRAC is via a
+    proprietary Sony tool that has been linked, and so I won't share it here.
 
-	  Note that, using this method, it is also possible to reencrypt games, as well
-	 as decrypt and reencrypt savedata. One last thing: because the eboot is protected by a
-	different method, piracy is not possible with this yet.
+      Note that, using this method, it is also possible to reencrypt games, as well
+     as decrypt and reencrypt savedata. One last thing: because the eboot is protected by a
+    different method, piracy is not possible with this yet.
 
-	  = HENkaku
-	  = A game, either digital or physical (gamecard)
+      = HENkaku
+      = A game, either digital or physical (gamecard)
 
-	  1. Install SQLite Browser [/SQLite Browser].
-	  2. FTP ux0:shell/db/app.db to your computer. Make sure to make a backup of this!
-	  3. Open SQLite Browser and oepn app.db with it.
-	  4. Click on "Browse Data", select the dropdown and select "tbl_uri".
-	  5. Click on "New Record".
-	  6. Fill out the entry: On "titleId", type "1"; on "flag", type "1" and on "scheme", type
-	 "ux0" if you are dumping a digital (on your memory card) game, or "gro0" if you are dumping
-	a physical (on a gamecard) game.
-	  7. Click on the dropdown and navigate to "tbl_appinfo". Search for a "titleId" of
-	 "NPXS10000".
-	  8. Search for the entry that mentions an eboot path (ending in eboot.bin). Replace it with
-	 "vs0:app/NPXS10027/eboot.bin".
-	  9. Save the changes and FTP the modified app.db back to your Vita in the same path:
-	 ux0:shell/db/app.db.
-	  10. Reboot your Vita.
+      1. Install SQLite Browser [/SQLite Browser].
+      2. FTP ux0:shell/db/app.db to your computer. Make sure to make a backup of this!
+      3. Open SQLite Browser and oepn app.db with it.
+      4. Click on "Browse Data", select the dropdown and select "tbl_uri".
+      5. Click on "New Record".
+      6. Fill out the entry: On "titleId", type "1"; on "flag", type "1" and on "scheme", type
+     "ux0" if you are dumping a digital (on your memory card) game, or "gro0" if you are dumping
+    a physical (on a gamecard) game.
+      7. Click on the dropdown and navigate to "tbl_appinfo". Search for a "titleId" of
+     "NPXS10000".
+      8. Search for the entry that mentions an eboot path (ending in eboot.bin). Replace it with
+     "vs0:app/NPXS10027/eboot.bin".
+      9. Save the changes and FTP the modified app.db back to your Vita in the same path:
+     ux0:shell/db/app.db.
+      10. Reboot your Vita.
 
-	  You have now modified app.db. This is the first step; once you have done this modification
-	 once, you will not need to redo it again (bar if you rebuild the database, in which case you
-	will have to restore the modified app.db again.)
+      You have now modified app.db. This is the first step; once you have done this modification
+     once, you will not need to redo it again (bar if you rebuild the database, in which case you
+    will have to restore the modified app.db again.)
 
-	  The next step is modifying the eboot. The eboot is the game binary; what we will do here is
-	 a simple trick to execute our own eboot, using game updates. Game updates are stored in
-	ux0:patch/(TitleID), where the TitleID is an unique number assigned to the game. The trick
-	here is that they have exactly the same structure as normal apps and that, when the Vita
-	detects a game update, it will launch the eboot in ux0:patch/(TitleID) instead of the 
-	game eboot, because it thinks it is an update!
+      The next step is modifying the eboot. The eboot is the game binary; what we will do here is
+     a simple trick to execute our own eboot, using game updates. Game updates are stored in
+    ux0:patch/(TitleID), where the TitleID is an unique number assigned to the game. The trick
+    here is that they have exactly the same structure as normal apps and that, when the Vita
+    detects a game update, it will launch the eboot in ux0:patch/(TitleID) instead of the 
+    game eboot, because it thinks it is an update!
 
-	  11. Copy the CONTENTS of ux0:app/MLCL00001 to ux0:patch/(TitleID), where (TitleID) is the
-	 TitleID of your game. You can find the TitleID of your game by looking in ux0:app (check the
-	icons) or a simple search. This will fake a game update (that is actually molecularShell.)
-	A TitleID consists of 4 capital letters followed b 5 numbers, for example "PSCB00001".
-	  12. Open the web browser.
-	  13. Type "ux0:app/(TitleID)" where (TitleID) is the TitleID of your game. If you are
-	 dumping a physical game, use "gro0:app/(TitleID)".
-	  14. If done correctly, Near (on Vita) or Email (on PSTV) should open. Both will contain
-	 the game manual.
-	  15. Press PS to go back to the LiveArea.
-	  16. Launch your game. molecularShell should open instead.
-	
-	  At this point, the game is decrypted (thanks to the manual and the 'game' being open) and
-	 you can dump files over FTP. Locations that are of interest are:
-	  * ux0:app/(TitleID) contains the entirety of game files
-	  * app0: is the same as above, but it also contains some files from ux0:patch
-	  * addcont0: is for DLC content
-	  * savedata0: is for savedata
+      11. Copy the CONTENTS of ux0:app/MLCL00001 to ux0:patch/(TitleID), where (TitleID) is the
+     TitleID of your game. You can find the TitleID of your game by looking in ux0:app (check the
+    icons) or a simple search. This will fake a game update (that is actually molecularShell.)
+    A TitleID consists of 4 capital letters followed b 5 numbers, for example "PSCB00001".
+      12. Open the web browser.
+      13. Type "ux0:app/(TitleID)" where (TitleID) is the TitleID of your game. If you are
+     dumping a physical game, use "gro0:app/(TitleID)".
+      14. If done correctly, Near (on Vita) or Email (on PSTV) should open. Both will contain
+     the game manual.
+      15. Press PS to go back to the LiveArea.
+      16. Launch your game. molecularShell should open instead.
+    
+      At this point, the game is decrypted (thanks to the manual and the 'game' being open) and
+     you can dump files over FTP. Locations that are of interest are:
+      * ux0:app/(TitleID) contains the entirety of game files
+      * app0: is the same as above, but it also contains some files from ux0:patch
+      * addcont0: is for DLC content
+      * savedata0: is for savedata
 
-	  To modify savedata, simply modify the file and write it back: it will be re-encrypted
-	 automatically. For modding the game itself, you need to put the ENTIRE game dump (with your
-	modifications) at ux0:patch/. Make sure to include a valid param.sfo: you can use the one
-	from molecularShell.
+      To modify savedata, simply modify the file and write it back: it will be re-encrypted
+     automatically. For modding the game itself, you need to put the ENTIRE game dump (with your
+    modifications) at ux0:patch/. Make sure to include a valid param.sfo: you can use the one
+    from molecularShell.
 
-	  a. Writing to gamecard - mod a game permanently or replace it with homebrew| @TRI10A
-	  ######################################################################################
+      a. Writing to gamecard - mod a game permanently or replace it with homebrew| @TRI10A
+      ######################################################################################
 
-	  Some gamecards contain writable partitions: these are normally used for savegames, storing
-	 game updates or system updates. However, it's possible to take over this partition, called
-	grw0:, and install homebrew or a patched game there.
+      Some gamecards contain writable partitions: these are normally used for savegames, storing
+     game updates or system updates. However, it's possible to take over this partition, called
+    grw0:, and install homebrew or a patched game there.
 
-	  = A working dump setup (check TRI9)
-	  = A gamecard with grw0:
+      = A working dump setup (check TRI9)
+      = A gamecard with grw0:
 
-	  1. To check if grw0: exists, simply try to FTP to it (via molecularShell opened from the
-	 dumped game.)
-	  2. Create a patch directory: grw0:patch/.
-	  3. In there, insert either the dumped game in its entirety (make sure you have enough
-	 space!) or your desired homebrew. For homebrew, files can be found at ux0:app/(TitleID);
-	transfer files in that folder.
-	  4. Launch your gamecard again, and your modded game or homebrew should now boot. 
+      1. To check if grw0: exists, simply try to FTP to it (via molecularShell opened from the
+     dumped game.)
+      2. Create a patch directory: grw0:patch/.
+      3. In there, insert either the dumped game in its entirety (make sure you have enough
+     space!) or your desired homebrew. For homebrew, files can be found at ux0:app/(TitleID);
+    transfer files in that folder.
+      4. Launch your gamecard again, and your modded game or homebrew should now boot. 
 
                      /  _/_  
         _. __  _  __/ o /  _  
        (__/ (_</_(_/_<_<__/_)_ @CDT
         _________________________________________________________________________________________
-		
-	  * Freakler for some of his tutorials.
-	  * Red Squirrel for his theme installer.
-	  * RushNY for his VHBL starter pack, slightly modified.
-	  * TheFloW for VitaShell.
-	  * molecule for an awesome exploit, and their great work on the Vita scene.
-	  
-	  I do not accept donations; direct them towards devs who make the scene the way it is.
-	 If you have downloaded this guide or its archive via any mirrors, the source is fully
-	avaible at https://github.com/xy2iii/vita-handbook for anyone to modify.
+        
+      * Freakler for some of his tutorials.
+      * Red Squirrel for his theme installer.
+      * RushNY for his VHBL starter pack, slightly modified.
+      * TheFloW for VitaShell.
+      * molecule for an awesome exploit, and their great work on the Vita scene.
+      
+      I do not accept donations; direct them towards devs who make the scene the way it is.
+     If you have downloaded this guide or its archive via any mirrors, the source is fully
+    avaible at https://github.com/xy2iii/vita-handbook for anyone to modify.
