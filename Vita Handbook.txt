@@ -59,6 +59,9 @@
      / representing the root of the archive. Requirements for each section will be specified
      with the equal sign =.
 
+      This guide is also navigatable fully offline. Clone the repo with this link:
+     https://github.com/xy2iii/vita-handbook.git then open Vita Handbook.txt in your favorite
+    text editor (vim is recommended, or Notepad++ under Windows.) 
                      _                                             
         _/_      /  //         /)               _/_         _/_   
         /  __.  /__// _    _  //    _. _  __    /  _  __    /  _  
