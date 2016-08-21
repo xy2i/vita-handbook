@@ -1,5 +1,5 @@
 Full credit to Yifan Lu for the listing. Original post at http://yifan.lu/2014/10/17/ps-vita-3-30-filesystem-listing/ .
-Part of the Vita Handbook Guide written by xy2_
+Part of the Vita Handbook Guide
 Note | you can not dump os0 and vs0
 
 os0:psp2bootconfig.skprx
@@ -1658,12 +1658,12 @@ pd0:data/systembgm/signup.at9
 pd0:data/systembgm/store.at9
 pd0:license/app/NPXS10007/6488b73b912a753a492e2714e9b38bc7.rif
 
-    os0 found on the NAND is where the “main” OS files are including all the kernel libraries and the most important user libraries. There’s always two copies of this for redundancy and updating will only update the inactive partition and the active flag is swapped.
-    sa0 found on the NAND is the “bulky” data like fonts and handwriting information. Why is it a separate partition? Because it makes update files smaller. Your “systemdata” PUP provides the update for this partition.
+    os0 found on the NAND is where the Â“mainÂ” OS files are including all the kernel libraries and the most important user libraries. ThereÂ’s always two copies of this for redundancy and updating will only update the inactive partition and the active flag is swapped.
+    sa0 found on the NAND is the Â“bulkyÂ” data like fonts and handwriting information. Why is it a separate partition? Because it makes update files smaller. Your Â“systemdataÂ” PUP provides the update for this partition.
     vs0 found on the NAND is the rest of the OS including all the system apps, the main shell, and the remaining user libraries
     vd0 found on the NAND is mainly used for the system registry (settings)
     ud0 found on the NAND is used for updates. When you update the Vita, the update file is copied here and the system reboots.
-    pd0 found on the NAND is where Welcome Park (and the intro video) are found. It is also the “preinst” PUP update.
+    pd0 found on the NAND is where Welcome Park (and the intro video) are found. It is also the Â“preinstÂ” PUP update.
     ur0 found on the NAND is the remaining user data that is structured similarly to the memory card (it shares almost the same directory structure). App icon layout for example is found here.
     ux0 is the memory card
     gro0 is the game card
