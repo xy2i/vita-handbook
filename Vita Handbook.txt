@@ -71,7 +71,7 @@
       
       * | Table of Contents | @C
     
-      * | Tcks | @T
+      * | Tricks | @T
      1. QCMA - Alternate Content Manager Assistant | @T1
      2. QCMA - Updating to 3.60 | @T2
     a. Alternative - PSTV 3.60 update | @T2A
@@ -85,7 +85,7 @@
      6. Custom theme installation and information | @T6
      7. app.db editing: customise your LiveArea | @T7
      
-      * | Advanced Tcks | @A   
+      * | Advanced Tricks | @A   
      8. Registry hacking: advanced Vita manipulation | @T8
     a. Faking Vita region | @T8A
     b. Swapping X and O | @T-B
@@ -174,7 +174,7 @@
       1. Open the "Browser" and type this URL: "henkaku.xyz". From here, tap the "Install"
      button and accept to install HENkaku. The exploit is unreliable: if you get the "C2-12828"
     error, try again, then again, then close the browser entirely (by peeling it off) and try
-    again. Be patient, it can take a lot of Tes.
+    again. Be patient, it can take a lot of tries.
       2. After a successful entry, the browser will be taken over and the "molecule" logo will
      display on the lower left corner of the screen. From there, simply wait for the install to
     finish; the browser will close automatically.
@@ -200,7 +200,7 @@
     (included in this guide under [/VitaShell.vpk]) which offers some bugfixes and shows
     all partitions natively, if you are going to do more with FTP than transferring homebrew.
    
-      Since HENkaku abolishes filesystem resTctions, you can also use it to reTve files
+      Since HENkaku abolishes filesystem restrictions, you can also use it to retrieve files
      from the pspemu. When PSP games are run, they are simply run inside the Vita's own PSP
     emulator. Normally CMA makes all the PSP side files you need accessible (such as games)
     but certain files, such as in-game recordings, will be saved to the pspemu's directory.
@@ -213,27 +213,27 @@
       a. Using HENkaku as a Content Manager replacement for videos, pictures, music | @T3A
       ######################################################################################
       
-       This is a simple Tck, but the information is so important it deserves a separate
+       This is a simple trick, but the information is so important it deserves a separate
       tutorial. You might have noticed that HENkaku could access the Vita filesystem: does
      this mean you can use it as a replacement for CM? The answer is yes, although not
      for games: you will still need to use CM for this. Note that this works in both directions:
      you can both transfer and recieve with this.
      
-       For pictures, screenshots are located at ux0:picture/SCREENSHOT/(numbered folder). Camera
-      shots are located at ux0:picture/CAMERA/(numbered folder). Transferred content is under
+       For pictures, screenshots are located at ux0:picture/SCREENSHOT/(lettered folders). Camera
+      shots are located at ux0:picture/CAMERA/(lettered folders). Transferred content is under
      ux0:picture/ALL.
-       For music, all music is under ux0:music/.
-       For videos, all music is under ux0:video/.
+       For music, all music is under ux0:music/(lettered folders).
+       For videos, all music is under ux0:video/(lettered folders).
        
       b. Unenslaving the memory card with HENkaku | @T3B
       ######################################################################################
       
-       Another simple Tck, yet which has a ton of uses. In a normal usage environement you
+       Another simple trick, yet which has a ton of uses. In a normal usage environement you
       can only use a memory card with a specific Vita and account. Thanfully Sony stored it on
      a very safe place: the exact directory is ux0:id.dat and removing this file will allow the
      memory card to be used on ANY vita in the world for a single use. (The id.dat is
      regenerated when you put the memory card in a Vita and power it on.
-       The main use of this Tck is being able to swap memory cards without formatting (if
+       The main use of this trick is being able to swap memory cards without formatting (if
       you own multiple memory cards, or want to use one of a friend, for example.)
      
       c. Re-installing HENkaku without an internet connection | @T3C
@@ -263,7 +263,7 @@
        ######################################################################################
       
       One of the first things you may notice upon getting an older firmware Vita is the inability
-     to do pretty much anything. Sony gated older firmwares very resTctively on purpose in
+     to do pretty much anything. Sony gated older firmwares very restrictively on purpose in
     order to force people to update to newer firmwares and have as little people as possible on
     old firmwares. The most crippling is the inability to get new games, which is required for
     most exploits.. hovewer, there is a way around this. This method will also activate your
@@ -301,7 +301,7 @@
        ######################################################################################
     
       VHBL only allows you to run homebrew and doens't give you access to the full
-     unresTcted PSP environement. Using this, you can run any homebrew the PSP is able to
+     unrestricted PSP environement. Using this, you can run any homebrew the PSP is able to
     run, with some improved performance.
     
       = HENkaku
@@ -346,7 +346,7 @@
      text editor. Once here, you can modify all information about the theme as well, including
      icons, color of the top bar, BGM, the wave effect in use, background et cetera.
      Of particular note is editing the BGM, which is in at9 format. This is Sony's proprietary
-     format, and redisTbitung the tool to create at9 audio is questionable: you're on your own.
+     format, and redistributing the tool to create at9 audio is questionable: you're on your own.
      
        7. app.db editing: customise your LiveArea | @T7
        ######################################################################################
@@ -361,8 +361,8 @@
        (_/|_(_/_\/(_/|_/ / <_(__</_(_/_   <__/ (_<_(__/ <_/_)_ @A
         _________________________________________________________________________________________
         
-      From this section onwards, Tcks will get much more advanced and difficult to pull off.
-     While the Tcks above could be done with simply being able to follow instructions, the next
+      From this section onwards, tricks will get much more advanced and difficult to pull off.
+     While the tricks above could be done with simply being able to follow instructions, the next
     will take some more skill to pull off. In short: do not do this if you don't know what you
     are doing, and stick to instructions.
     
@@ -387,7 +387,7 @@
       
       1. Dump system.dreg and system.ireg then run fixreg_vita.exe with these two files in the
      same directory.
-      2. Open system.dreg with your hex editor. Search for a sTng saying "region_no"; one
+      2. Open system.dreg with your hex editor. Search for a string saying "region_no"; one
      line below, there should be a single byte with a number in a line of 00. Modify it to match
     your new region:
       * 01 for Japan            * 07 for Australia
@@ -407,7 +407,7 @@
       = An hex editor
       
       1. Dump system.dreg and system.ireg .
-      2. Open system.dreg with your hex editor. Search for a sTng saying "button_assign"; one
+      2. Open system.dreg with your hex editor. Search for a string saying "button_assign"; one
      line below, there should be a single byte with a number in a line of 00. Modify it to match
     your new button assignement:
       * 00 makes O enter          * 01 makes X enter
@@ -423,7 +423,7 @@
       = An hex editor
       
       1. Dump system.dreg and system.ireg.
-      2. Open system.dreg with your hex editor. Search for a sTng saying "enable_np"; one
+      2. Open system.dreg with your hex editor. Search for a string saying "enable_np"; one
      line below, there should be a single byte with a number in a line of 00. Modify it to match
     your new semi-debug mode status:
       * 00 makes SDB  disabled    * 01 makes SDB enabled
@@ -432,7 +432,7 @@
       d. Changing AccountID - restore ANY Vita system backup | @T8D
       ######################################################################################
       
-      The AccountID is a single 16 byte hex sTng located in your registry. In particular, it
+      The AccountID is a single 16 byte hex string located in your registry. In particular, it
      is important because your AccountID determines your 'identity' while transferring files
     over CM. This means, if you are able to change the AccountID, you are able to suddently use
     someone's else files! As expected, most things don't work with this, but there is one
@@ -446,10 +446,11 @@
       = QCMA
       
       1. To know your AccountID, simply go in your QCMA directory and in the "Save" folder:
-     the random sTng is your AccountID. Ask the same of the Vita owner who provided the backup.
+     the random string is your AccountID. Ask the same of the Vita owner who provided the backup.
+    An example of an AccoutnID is 1234ABCD5678CDEF
       2. Switch into Airplane mode and reboot: this is important for later.
       3. Dump system.dreg and system.ireg.
-      4. Open system.dreg with your hex editor. Search for a sTng saying "privacy_confirmation"
+      4. Open system.dreg with your hex editor. Search for a string saying "privacy_confirmation"
      and four lines above, you should find your AccountID. Alternatively, you can simply search
     for your current AccountID. Replace it with the one of the backup you want to replace.
       5. FTP system.dreg back to your vita. Keep the old registry as a backup.
@@ -461,20 +462,16 @@
      avaible backups.
       10. Select the new backup and restore!
       
-      So, what can you do with this Tck? This is probably one of the wierdest things I have
-     seen in my entire hacking career; normally this would break any other console wide open,
-    yet for the Vita it does almost nothing, because one other very solid layer still protects
-    the Vita: activation. However, there's still quite a bit you can do with this Tck:
-    alone, it can allow you to get any file you want on any firmware, in combinaison with
-    some of the other methods listed here. I will not get into this as it would only bloat
-    the guide, but simply know that this has been largely unexplored and has a lot of potential.
+      So, what can you do with this trick? Almost nothing. You can get the games on your Vita, 
+     yet there's no easy way to activate (and as such get actual access to the games) other than
+    owning the account.
     
       For those who are interested in some more details: act.dat is an encrypted file which
      dictates whether a Vita is activated or not. If it's there and valid, the Vita is activated
     and can play games! Even with all the other checks bypassed and NPDRM cracked (due to simply
     transferring over the files) nothing is doable with activation, and the only way to do so
     is activate via Internet or transfer a file from a PS3 with the same account.
-      You might say: 'but if we have access to the backup owner's PS3, can't we get unresTcted
+      You might say: 'but if we have access to the backup owner's PS3, can't we get unrestricted
      access to his games?' You can, it's just incredibly long to do, but it's technically piracy.
     Do this if the backup owner is paranoid of giving his account ever and he's a close friend,
     I guess, although simply sharing the account is much faster.
@@ -565,8 +562,8 @@
     will have to restore the modified app.db again.)
 
       The next step is modifying the eboot. The eboot is the game binary; what we will do here is
-     a simple Tck to execute our own eboot, using game updates. Game updates are stored in
-    ux0:patch/(TitleID), where the TitleID is an unique number assigned to the game. The Tck
+     a simple trick to execute our own eboot, using game updates. Game updates are stored in
+    ux0:patch/(TitleID), where the TitleID is an unique number assigned to the game. The trick
     here is that they have exactly the same structure as normal apps and that, when the Vita
     detects a game update, it will launch the eboot in ux0:patch/(TitleID) instead of the 
     game eboot, because it thinks it is an update!
