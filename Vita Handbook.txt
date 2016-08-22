@@ -618,7 +618,7 @@
       The IDU mode (standing for In-Demonstration Unit) is a mode that can be enabled on any
      retail Vita, giving it several extra functionalities:
       * Content Downloader - download & install .pkg and .pup files from a remote website
-      * Package Installer - install pre-downloader .pkg files (Content Downloader outclasses
+      * ★Package Installer - install pre-downloader .pkg files (Content Downloader outclasses
     this)
       * Ignore id.dat - this means you can swap memory cards without having to do any
      modifications
@@ -689,6 +689,11 @@
      Automatically: there is no longer a duration set, and if you change it, it will
     update on a reboot. This carries over to retail as long as you do not change the setting
     while under retail.
+    
+      But where is the ★Package Installer? It's simply hidden. Use Bubble Studio
+     (https://anthe.studio/bubblestudio/), create a new bubble and add the ★Package Installer
+    bubble and it will appear and work fully on the next reboot (unlike the FakePackage
+    Installer on retail Vitas.)
 
                      /  _/_  
         _. __  _  __/ o /  _  
@@ -702,7 +707,7 @@
       * xyz for vita-idu.
       * molecule for an awesome exploit, and their great work on the Vita scene.
       * All the Github contributors:
-      xy2_ (26)
+      xy2_ (29)
       robflop (1)
       
       I do not accept donations; direct them towards devs who make the scene the way it is.
