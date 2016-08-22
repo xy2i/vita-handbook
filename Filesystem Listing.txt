@@ -1658,13 +1658,13 @@ pd0:data/systembgm/signup.at9
 pd0:data/systembgm/store.at9
 pd0:license/app/NPXS10007/6488b73b912a753a492e2714e9b38bc7.rif
 
-    os0 found on the NAND is where the main OS files are including all the kernel libraries and the most important user libraries. Theres always two copies of this for redundancy and updating will only update the inactive partition and the active flag is swapped.
+    os0 found on the NAND is where the main OS files are, including all the kernel libraries and the most important user libraries. There's always two copies of this for redundancy and updating will only update the inactive partition and the active flag is swapped.
     sa0 found on the NAND is the bulky data like fonts and handwriting information. Why is it a separate partition? Because it makes update files smaller. Your systemdata PUP provides the update for this partition.
-    vs0 found on the NAND is the rest of the OS including all the system apps, the main shell, and the remaining user libraries
-    vd0 found on the NAND is mainly used for the system registry (settings)
-    ud0 found on the NAND is used for updates. When you update the Vita, the update file is copied here and the system reboots.
+    vs0 found on the NAND is the rest of the OS including all the system apps, the main shell, and the remaining user libraries.
+    vd0 found on the NAND is mainly used for the system registry (settings).
+    ud0 found on the NAND is used for updates. When you update the Vita, the update file is copied here and then the system reboots.
     pd0 found on the NAND is where Welcome Park (and the intro video) are found. It is also the preinst PUP update.
     ur0 found on the NAND is the remaining user data that is structured similarly to the memory card (it shares almost the same directory structure). App icon layout for example is found here.
-    ux0 is the memory card
-    gro0 is the game card
-    grw0 is the writable part of the game card if supported
+    ux0 is the memory card.
+    gro0 is the game card.
+    grw0 is the writable part of the game card if supported.
