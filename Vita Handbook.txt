@@ -609,7 +609,85 @@
      space!) or your desired homebrew. For homebrew, files can be found at ux0:app/(TitleID);
     transfer files in that folder.
       4. Launch your gamecard again, and your modded game or homebrew should now boot. 
-      
+ 
+       11. IDU mode - Enable Content Downloader and various other tweaks | @T11
+       ######################################################################################
+
+      The IDU mode (standing for In-Demonstration Unit) is a mode that can be enabled on any
+     retail Vita, giving it several extra functionalities:
+      * Content Downloader - download & install .pkg and .pup files from a remote website
+      * Package Installer - install pre-downloader .pkg files (Content Downloader outclasses
+    this)
+      * Ignore id.dat - this means you can swap memory cards without having to do any
+     modifications
+      * No standby - by default, an IDU vita does not standby (you can change this in settings);
+     this carries over to a retail Vita if you do not change the setting
+      * X & O swap - carries over to a retail Vita as well
+
+      Note that an IDU vita does not behave like you may think it does, and there is a small 
+     risk of softbricking (restorable via Safe Mode) as well. If you have no idea what you are
+    doing, do not do this!
+
+      = HENkaku
+
+      1. Go into Airplane Mode and install the IDU switcher homebrew [idu-mode.vpk].
+      2. Launch and press X to switch to IDU mode.
+      3. Reboot your Vita.
+
+      Your Vita will now be in IDU mode. IF you didn't diasble Wi-FI, your Vita will try to
+     download (and if already downloaded, install without prompting you) the latest update,
+    so be sure to set Airplane Mode or cancel the download at each boot. To convert your
+    Vita back into retail, run the homebrew again and press O.
+
+      Right off the bat, you may notice that some of your icons disappeared. Do not worry;
+     simply hold L + R + UP + START and you will 'unlock' the Vita. The other problem is that
+    the Vita will power off after 5 minutes if not plugged in a power source. You can bypass
+    this with the following method:
+
+      1. Power off your Vita.
+      2. Power on your Vita VIA plugging it via USB (as if you were recharging your Vita.)
+      3. Unlock your Vita via the button combo above (L + R + START + UP).
+      4. Do a soft press of the POWER button to put your Vita into Standby, then wait until
+     the notification LED stops blinking.
+      5. Unplug the USB cable.
+      6. Press POWER again.
+
+      If rebooting, you will have to do this at each boot; as such, it is recommended you 
+     keep your IDU Vita on.
+
+      You can find the extra options listed here under Settings > IDU settings. Here's a quick
+     rundown:
+      * O Button Behavior - One of the most useful features; allows to swap X to O and vice
+     versa (as if on a Japanese Vita.) This setting will carry over to retail.
+      * Content Downloader - The single most useful feature in IDU mode. What this allows to
+     do is download both packages (pkg) and update files (pup) then install them, but from
+    any domain! For example, you could make a website that hosts a collection of packages
+    and any Vita would be able to connect to it and download the packages. Note that Content
+    Downloader also installs the downloaded packages legitimately (via bgdl). You can not
+    install packages with DRM with this, only non-DRM packages (such as demos.)
+      * Sound Output Device Selection - Allows to set sound output (either default or
+     speaker.) Useful if you have a speaker.
+      * Wait Time To Start Video Playback - IDU Vitas, when not unlocked, will play all videos
+     on the Vita after a set amount of time (when plugged in.) This allows you to configure
+    the delay or turn it off entirely.
+      * Show PS4 Link icon - When not unlocked, the IDU Vita will show the PS4 Link app (in
+     addition to Welcome Park, Videos, as well as any installed app on the system.)
+      * Format Memory Card for Pre-installed Media - Will format your memory card. THIS IS
+     MISLEADING, BEWARE! The option shows an arrow, as in to prompt for confirmation, but it
+    will directly format your Vita without prompting you. Useful for quick formatting of
+    a memory card.
+      * Cleanup Unnecessary Files (For Games only) - Unknown. Prompts for a PUP, suggesting
+     this is for a clean update to X system version with minimal content.
+      * Cleanup Unneccesary Files (For Games, Movies and Background Images) - Same as above,
+     but keeps more content on the card (?)
+      * Check Memory Card (For Games only) - Unknown.
+      * Check Memory Card (For Games, Movies and Background images) - Unknown.
+
+      The last thing IDU mode changes is under Settings > Power Save > Enter Standby Mode
+     Automatically: there is no longer a duration set, and if you change it, it will
+    update on a reboot. This carries over to retail as long as you do not change the setting
+    while under retail.
+
                      /  _/_  
         _. __  _  __/ o /  _  
        (__/ (_</_(_/_<_<__/_)_ @C
