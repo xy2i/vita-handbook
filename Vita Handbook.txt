@@ -474,9 +474,9 @@
     transferring over the files) nothing is doable with activation, and the only way to do so
     is activation via Internet or by transfering a file from a PS3 with the same account.
       You might say: 'but if we have access to the backup owner's PS3, can't we get unrestricted
-     access to his games?' You can, it's just incredibly long to do, but it's technically piracy.
-    Do this if the backup owner is paranoid of ever giving his account and he's a close friend,
-    I guess, although simply sharing the account is much faster.
+     access to his games?' You can, it's just incredibly long to do. Do this if the backup owner 
+    is paranoid of ever giving his account and he's a close friend, although simply sharing 
+    the account is much faster.
 
        9. Account swap - host multiple accounts on a single memory card | @T9
        ######################################################################################
@@ -699,7 +699,11 @@
       * Red Squirrel for his theme installer.
       * RushNY for his VHBL starter pack, slightly modified.
       * TheFloW for VitaShell.
+      * xyz for vita-idu.
       * molecule for an awesome exploit, and their great work on the Vita scene.
+      * All the Github contributors:
+      xy2_ (26)
+      robflop (1)
       
       I do not accept donations; direct them towards devs who make the scene the way it is.
      If you have downloaded this guide or its archive via any mirrors, the source is fully
