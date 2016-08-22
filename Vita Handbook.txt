@@ -18,7 +18,7 @@
   smmmmd  mmmmmmd      fully archived with relevant hacking software        ddmmddm mddmm mmmddd
   ` mmmmmmmmmmmm                                                            ddmddddmmm  mmmddddd
    `smNmmmmmmmmmd                                                          ddmmm@@@@#d mddddddd`
-     / _____mdmmmmmmdddddd                         Firmware 1.52          dddmm##  #Nmddddddddd`
+     / _____mdmmmmmmdddddd                         Firmware 1.60          dddmm##  #Nmddddddddd`
       `/ ssmddddddddmmmmmmmmmdddddd                                      ddmmNM     Ndmmmmddmm/ 
          -+ ddmmmmmddddddddddddddddmmdddddd             Written by xy2_  ddmmdm     mddmmmddds  
             ` -/+s dddmmmmmmdddddddddyyyyyyyyyddddddd                    dddmddd   @mdddddddd`  
@@ -707,7 +707,7 @@
       * xyz for vita-idu.
       * molecule for an awesome exploit, and their great work on the Vita scene.
       * All the Github contributors:
-      xy2_ (29)
+      xy2_ (30)
       robflop (1)
       
       I do not accept donations; direct them towards devs who make the scene the way it is.
