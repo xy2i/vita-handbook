@@ -92,6 +92,7 @@
     a. Account swap via AccountID change | @T9A
      10. Game and savedata dumping: dump entire decrypted games and saves | @ T10
     a. Writing to gamecarts - mod a game permanently or replace it with homebrew | @T10A
+     11. IDU mode - Enable Content Downloader and various other tweaks | @T11
 
       * | Credits | @C
       
@@ -699,7 +700,11 @@
       * xyz for vita-idu.
       * molecule for an awesome exploit, and their great work on the Vita scene.
       * All the Github contributors:
+<<<<<<< HEAD
       xy2_ (32)
+=======
+      xy2_ (31)
+>>>>>>> 13594be32d8932ab474d09f1c9a36a66fd3c0676
       robflop (1)
       
       I do not accept donations; direct them towards devs who make the scene the way it is.
