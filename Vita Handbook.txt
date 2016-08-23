@@ -34,18 +34,15 @@
         <_/ / <_<__/ (_(_)(_/_(_/_(__<__<_(_)/ / @I
         _________________________________________________________________________________________
         
-      In regards to Vita hacking, the scene has changed drastically with the release of the new
-     hack HENkaku. This has divided the Vita into two separate communities: 3.60 users, and
-    3.52 or lower users (with the edge case of 3.55 users). In terms of writing a guide, this is
-    a hard decision to make, as trying to support both sides will end up in a guide overly 
-    complicated, and getting new users to a common point for support is much easier (why is why
-    I think Molecule made it so HENkaku only supports 3.60, and have no plans to port).
-      After deliberation, this tutorial will only support 3.60 users, as they vastly outclass
-     what >3.52 Vitas can do. The only advantage of a 3.52 Vita at the time of writing is the
-    ability to play PSP ISOs, an ability that I'm sure 3.60 users will gain in due time.
-    
-     So, here it is in all caps: GET A 3.60 VITA IF YOU WANT TO FOLLOW THIS GUIDE. IF LOWER
-    FIRMWARE, UPDATE TO 3.60. IF HIGHER FIRMWARE, YOU ARE SCREWED, THERE IS NO DOWNGRADE.
+      The Vita Handbook is a guide aimed at being a comprehensive, in depth and offline resource
+     regrouping a vast list of tutorials, hence the name "handbook". In the current state of the
+    scene, there is no end goal for hacking the Vita, but simply a collection of tricks that you
+    are able to execute (as well as the ability to install various homebrew and emulators.) This
+    is why the handbookk was made with the intent to be nonlinear, and that one can follow any
+    tutorial this offers based on their need. 
+
+      GET A 3.60 VITA IF YOU WANT TO FOLLOW THIS GUIDE. IF LOWER FIRMWARE, UPDATE TO 3.60. IF 
+     HIGHER FIRMWARE, YOU ARE SCREWED, THERE IS NO DOWNGRADE.
     To update to 3.60, follow T2. Where can you find your firmware version? It's under
     "Settings" > "System" > "System Information".
     
@@ -197,9 +194,7 @@
       To write or delete files, simply use FTP. There are basic functions for file management
      available natively under molecularShell as well. More advanced users might notice that
     some partitions are hidden: just write the partition name under "Remote site" (if using 
-    FileZilla) in FTP to access it. Alternatively, you can also use the original VitaShell
-    (included in this guide under [/VitaShell.vpk]) which offers some bugfixes and shows
-    all partitions natively, if you are going to do more with FTP than transferring homebrew.
+    FileZilla) in FTP to access it. 
    
       Since HENkaku abolishes filesystem restrictions, you can also use it to retrieve files
      from the pspemu. When PSP games are run, they are simply run inside the Vita's own PSP
@@ -323,17 +318,15 @@
 	your path would look like this: "ux0:pspemu/PSP/VHBL/GPSP".
      
       For lazy users, a complete homebrew pack has been put in [/VHBL/Starter Pack]. Simply
-     transfer its contents to "ux0:pspemu/PSP/VHBL". (Thanks to RushNY for the original, I did
-    some additions.)
+     transfer its contents to "ux0:pspemu/PSP/VHBL".
      
        6. Custom theme installation and information | @T6
        ######################################################################################
        
-      This is pretty self-explainatory. Custom themes allow the customization of the entire
-	 LiveArea environment, and with new tools it is possible to fake them as real 
-	themes, essentially having all functionality from official themes. A collection of 
-	custom themes can be found at https://www.reddit.com/r/vitathemes , you can post your 
-	own themes as well.
+      Custom themes allow the customization of the entire LiveArea environment, and it is
+     possible to fake them as real themes, essentially having all functionality from 
+    official themes. A collection of custom themes can be found at 
+    https://www.reddit.com/r/vitathemes.
     
       = HENkaku
       
@@ -468,15 +461,13 @@
      yet there's no easy way to activate (and as such get actual access to the games) other than
     owning the account.
     
-      For those who are interested in some more details: act.dat is an encrypted file which
-     dictates whether a Vita is activated or not. If it's there and valid, the Vita is activated
-    and can play games! Even with all the other checks bypassed and NPDRM cracked (due to simply
-    transferring over the files) nothing is doable with activation, and the only way to do so
-    is activation via Internet or by transfering a file from a PS3 with the same account.
+      For more details: act.dat is an encrypted file which dictates whether a Vita is activated 
+     or not. If it's there and valid, the Vita is activated and can play games; otherwhise, it is
+    able to do nothing. The only way to activate is either by having the owner's account
+    creditentials or access to his PS3.
       You might say: 'but if we have access to the backup owner's PS3, can't we get unrestricted
-     access to his games?' You can, it's just incredibly long to do. Do this if the backup owner 
-    is paranoid of ever giving his account and he's a close friend, although simply sharing 
-    the account is much faster.
+     access to his games?' This is correct, and a viable option if the backup owner is paranoid
+     of ever giving his account, although simply sharing the account is much faster.
 
        9. Account swap - host multiple accounts on a single memory card | @T9
        ######################################################################################
@@ -486,7 +477,8 @@
     account doesn't own! However, the actual way to play this content is a little bit more 
     complex: Sony made it so that all account files are directly on the memory card. As such,
     simply replacing those files will allow you to switch accounts with ease and without
-    formatting. 
+    formatting. This is the only and most convenient way of having multiple accounts on a single
+    memory card. 
 
       = HENkaku
       = The PSN creditentials of the accounts you wish to add
@@ -618,7 +610,7 @@
       The IDU mode (standing for In-Demonstration Unit) is a mode that can be enabled on any
      retail Vita, giving it several extra functionalities:
       * Content Downloader - download & install .pkg and .pup files from a remote website
-      * ★Package Installer - install pre-downloader .pkg files (Content Downloader outclasses
+      * ★Package Installer - install pre-downloaded .pkg files (Content Downloader outclasses
     this)
       * Ignore id.dat - this means you can swap memory cards without having to do any
      modifications
@@ -707,7 +699,7 @@
       * xyz for vita-idu.
       * molecule for an awesome exploit, and their great work on the Vita scene.
       * All the Github contributors:
-      xy2_ (30)
+      xy2_ (32)
       robflop (1)
       
       I do not accept donations; direct them towards devs who make the scene the way it is.
