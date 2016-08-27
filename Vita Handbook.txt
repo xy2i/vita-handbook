@@ -9,8 +9,6 @@
     ommmmNNm   NmNNmmmd                                               dddddddddd++/:+- `        
    /mmmmmmNmmmNmNNmmmm     _    _          _    ,                               dddd/::+ `  `    
    dmmmmmmNNNNmmmmmmmd    ' )  / _/_      ' )  /              / /        /      ddddd::++/::-    
-  smmmmmmm#@@@#mmmmmd      (  /o /  __.    /--/ __.  ____  __/ /____ __ /_     dddmddd/:++//:-  
-  mNmmmmm##   #mmmmm        \/<_<__(_/|_  /  (_(_/|_/ / <_(_/_/_)(_)(_)/ <_    dddmmm  dddd/::  
  /mmmmmmmm    @Nmmmd                                                          dddmdd   mddmddd  
  ommmmmmmN   @mmmmd                                                           ddmmmddddmmmdddds 
  +mmmmmmmmm#@@mmmm       Text-based PS Vita comprehensive hacking guide,     ddmmmddmm  mdddddd`
@@ -366,12 +364,11 @@
        8. Registry hacking: advanced Vita manipulation | @T8
        ######################################################################################
        
-      The registry, located at vs0:registry/registry.dreg, is one of the most important files
+      The registry, located at vd0:registry/registry.dreg, is one of the most important files
      on the entire Vita: it contains all your account information. The following subtutorials
     will allow you to use this file for advanced tweaks. All subtutorials will also require
     an hex editor, such as HxD. For each tutorial, you will need to dump both 
-    vs0:registry/registry.dreg and vs0:registry/registry.ireg, and use [/fixreg_vita.exe] for
-    each modification.
+    vd0:registry/registry.dreg and vd0:registry/registry.ireg.
     
       a. Faking Vita region | @T8A
       ######################################################################################
