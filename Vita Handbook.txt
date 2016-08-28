@@ -79,6 +79,7 @@
      4. Getting new content (games, etc) on the Vita and activation (Any) | @T4
     a. Alternative - Dual Vita transfer | @T4A
      5. Installing VHBL | @T5
+    a. Alternative - Whitelisting a PSP demo (for VHBL use) | @T5A
      6. Custom theme installation and information | @T6
      7. app.db editing: customise your LiveArea | @T7
      
@@ -321,6 +322,42 @@
       For lazy users, a complete homebrew pack has been put in [/VHBL/Starter Pack]. Simply
      transfer its contents to "ux0:pspemu/PSP/VHBL".
      
+     a. Alternative - Whitelisting a PSP demo (for VHBL use) | @T5A
+     ######################################################################################
+     
+      If you've been seeking for PSP demos for use with VHBL (and don't want to sacrifice
+     a game) you might notice that there are a very limited number of PSP demos avaible.
+    This is on purpose: Sony "blacklisted" every PSP demo in case a PSP exploit would
+    emerge. There is one exception to this: the server-side blacklist didn't work and some
+    games got 'leaked' for use as demos, such as Ape Escape.
+    
+      What happens when you try to transfer a PSP demo, then? The truth is that it actually
+     transfers, but simply does not show up (and as such, is effectively unplayable.)
+    With HENkaku, we have the ability to modify every file on the filesystem, and as such
+    effectively edit the whitelist. The main advantage of using a custom demo is that it
+    can be much smaller in size than the "leaked" demos.
+    
+      Note that this messes with a system partiton, vs0. If you are scared of messing up
+     your Vita, don't do this!
+     
+      = HENkaku
+      = A PSP demo
+      = A PS3
+    
+      1. Install VitaRW [/VitaRW.vpk].
+      2. Run VitaRW on your Vita. Press PS once and go back in VitaRW again (without closing
+     it) since it will stop at one partition; once you do this, VitaRW will close.
+      3. Reboot your Vita.
+      4. FTP to your Vita and extract vs0:data/internal/launch/list_launch_emu.dat.
+      5. Find the TitleID of your PSP game you wish to install; you can ususally find this 
+     via a simple web search. Once found, edit list_launch_emu.dat and add that TitleID. Note 
+    that games inside list_launch_emu are classed by alphabetical order, so don't simply add
+    a new line randomly and follow alphabetically to add your game.
+      6. FTP it back and reboot your Vita.
+      7. Transfer the demo from your PS3 following  @T4.*
+      
+      The demo should now appear on the LiveArea and you can use it to install VHBL.
+     
        6. Custom theme installation and information | @T6
        ######################################################################################
        
@@ -353,16 +390,6 @@
     which icons show up or not, etc. This is an online tool; to use it, follow the link below.
       https://anthe.studio/bubblestudio/
                                                                  
-                /                      /   _/_          /     
-        __.  __/, ___.  ____  _. _  __/    /  __  o _. /_  _  
-       (_/|_(_/_\/(_/|_/ / <_(__</_(_/_   <__/ (_<_(__/ <_/_)_ @A
-        _________________________________________________________________________________________
-        
-      From this section onwards, tricks will get much more advanced and difficult to pull off.
-     While the tricks above could be done with simply being able to follow instructions, the next
-    will take some more skill to pull off. In short: do not do this if you don't know what you
-    are doing, and stick to instructions.
-    
        8. Registry editing: advanced Vita manipulation | @T8
        ######################################################################################
        
@@ -455,6 +482,16 @@
       You might say: 'but if we have access to the backup owner's PS3, can't we get unrestricted
      access to his games?' This is correct, and a viable option if the backup owner is paranoid
      of ever giving his account, although simply sharing the account is much faster.
+     
+                /                      /   _/_          /     
+        __.  __/, ___.  ____  _. _  __/    /  __  o _. /_  _  
+       (_/|_(_/_\/(_/|_/ / <_(__</_(_/_   <__/ (_<_(__/ <_/_)_ @A
+        _________________________________________________________________________________________
+        
+      From this section onwards, tricks will get much more advanced and difficult to pull off.
+     While the tricks above could be done with simply being able to follow instructions, the next
+    will take some more skill to pull off. In short: do not do this if you don't know what you
+    are doing, and stick to instructions.
 
        9. Account swap - host multiple accounts on a single memory card | @T9
        ######################################################################################
@@ -685,7 +722,7 @@
       * xyz for vita-idu.
       * molecule for an awesome exploit, and their great work on the Vita scene.
       * All the Github contributors:
-      xy2_ (38)
+      xy2_ (39)
       robflop (1)
       
       I do not accept donations; direct them towards devs who make the scene the way it is.
