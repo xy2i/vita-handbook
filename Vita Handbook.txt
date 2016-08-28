@@ -372,7 +372,7 @@
     Editor to carry out these tweaks. It is a good idea to mess around with the registry as
     well to see some of the more obscure settings. The followings tutorials will refer to
     'locations' in the registry, for example /CONFIG/SYSTEM: these are simply the folders
-    that you need to enter.
+    that you need to enter. You can find the Registry Editor under [/RegistryEditor.vpk].
     
       Remember that the majority of registry modifications need a reboot to work.
     
@@ -685,7 +685,7 @@
       * xyz for vita-idu.
       * molecule for an awesome exploit, and their great work on the Vita scene.
       * All the Github contributors:
-      xy2_ (37)
+      xy2_ (38)
       robflop (1)
       
       I do not accept donations; direct them towards devs who make the scene the way it is.
