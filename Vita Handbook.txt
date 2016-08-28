@@ -416,6 +416,8 @@
      back after 20 hours on EU Vitas. To change this settting:
       * Set /CONFIG/SOUND/avls to 0.
       * Set /CONFIG/SOUND/avls_timer to 0.
+      Note that the change is onlh semi-permanent: AVLS will not re-enable after 20 hours,
+     but it will enable again after a reboot (not that you'd reboot a Vita with HENkaku..)
     
       c. Swapping X and O | @T8C
       ######################################################################################
