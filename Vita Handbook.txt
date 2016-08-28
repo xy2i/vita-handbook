@@ -6,9 +6,11 @@
        - mmdmmmmmmmmmmmmd _/_ /        dddddddddddd    so+/:- `           for optimal reading.) 
       +dmmmmmd   mmmmmmm   /  /_  _               dddddddddddd    s+/:- ``                      
      ommmdd       mmmmm   <__/ /_</_                         ddddddddddd    so+/- `             
-    ommmmNNm   NmNNmmmd                                               dddddddddd++/:+- `        
-   /mmmmmmNmmmNmNNmmmm     _    _          _    ,                               dddd/::+ `  `    
-   dmmmmmmNNNNmmmmmmmd    ' )  / _/_      ' )  /              / /        /      ddddd::++/::-    
+    ommmmNNm   NmNNmmmd                                               ddddddddddd   +- `        
+   /mmmmmmNmmmNmNNmmmm     _    _          _    ,                               ddd/::+ `  `    
+   dmmmmmmNNNNmmmmmmmd    ' )  / _/_      ' )  /              / /        /      dddmdd/:/::-    
+  smmmmmmm#@@@#mmmmmd      (  /o /  __.    /--/ __.  ____  __/ /____ __ /_     dddmdddddd//::-  
+  mNmmmmm##   #mmmmm        \/<_<__(_/|_  /  (_(_/|_/ / <_(_/_/_)(_)(_)/ <_    dddmmm  dddd/::  
  /mmmmmmmm    @Nmmmd                                                          dddmdd   mddmddd  
  ommmmmmmN   @mmmmd                                                           ddmmmddddmmmdddds 
  +mmmmmmmmm#@@mmmm       Text-based PS Vita comprehensive hacking guide,     ddmmmddmm  mdddddd`
@@ -16,7 +18,7 @@
   smmmmd  mmmmmmd      fully archived with relevant hacking software        ddmmddm mddmm mmmddd
   ` mmmmmmmmmmmm                                                            ddmddddmmm  mmmddddd
    `smNmmmmmmmmmd                                                          ddmmm@@@@#d mddddddd`
-     / _____mdmmmmmmdddddd                         Firmware 1.60          dddmm##  #Nmddddddddd`
+     / _____mdmmmmmmdddddd                         Firmware 1.61          dddmm##  #Nmddddddddd`
       `/ ssmddddddddmmmmmmmmmdddddd                                      ddmmNM     Ndmmmmddmm/ 
          -+ ddmmmmmddddddddddddddddmmdddddd             Written by xy2_  ddmmdm     mddmmmddds  
             ` -/+s dddmmmmmmdddddddddyyyyyyyyyddddddd                    dddmddd   @mdddddddd`  
@@ -683,7 +685,7 @@
       * xyz for vita-idu.
       * molecule for an awesome exploit, and their great work on the Vita scene.
       * All the Github contributors:
-      xy2_ (32)
+      xy2_ (37)
       robflop (1)
       
       I do not accept donations; direct them towards devs who make the scene the way it is.
