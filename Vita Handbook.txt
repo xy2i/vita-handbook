@@ -81,11 +81,13 @@
      7. app.db editing: customise your LiveArea | @T7
      
       * | Advanced Tricks | @A   
-     8. Registry hacking: advanced Vita manipulation | @T8
-    a. Faking Vita region | @T8A
-    b. Swapping X and O | @T-B
-    c. Enabling Semi-Debug mode | @T8C
-    d. Changing AccountID - restore ANY Vita system backup | @T8D
+     8. Registry editing: advanced Vita manipulation | @T8
+    a. Changing your Vita username | @T8A
+    b. AVLS removal | @T8B
+    c. Swapping X and O | @T8C
+    d. Enabling Semi-Debug mode | @T8D
+    e. Disabling Standby and auto-dim | @T8E
+    f. Changing AccountID - restore ANY Vita system backup | @T8F
      9. Account swap - host multiple accounts on a single memory card | @T9
     a. Account swap via AccountID change | @T9A
      10. Game and savedata dumping: dump entire decrypted games and saves | @ T10
@@ -190,10 +192,8 @@
      anywhere you want onto your vita (I recommend making a vpk folder under ux0: for this),
     then select the file and press X to install the package in molecularShell.
     
-      To write or delete files, simply use FTP. There are basic functions for file management
-     available natively under molecularShell as well. More advanced users might notice that
-    some partitions are hidden: just write the partition name under "Remote site" (if using 
-    FileZilla) in FTP to access it. 
+      To write or delete files, simply use FTP via your FTP client. molecularShell offers
+     file management function which can be done without FTP as well.
    
       Since HENkaku abolishes filesystem restrictions, you can also use it to retrieve files
      from the pspemu. When PSP games are run, they are simply run inside the Vita's own PSP
@@ -361,68 +361,55 @@
     will take some more skill to pull off. In short: do not do this if you don't know what you
     are doing, and stick to instructions.
     
-       8. Registry hacking: advanced Vita manipulation | @T8
+       8. Registry editing: advanced Vita manipulation | @T8
        ######################################################################################
        
       The registry, located at vd0:registry/registry.dreg, is one of the most important files
      on the entire Vita: it contains all your account information. The following subtutorials
-    will allow you to use this file for advanced tweaks. All subtutorials will also require
-    an hex editor, such as HxD. For each tutorial, you will need to dump both 
-    vd0:registry/registry.dreg and vd0:registry/registry.ireg.
+    will allow you to use this file for advanced tweaks. You will need to use the Registry
+    Editor to carry out these tweaks. It is a good idea to mess around with the registry as
+    well to see some of the more obscure settings. The followings tutorials will refer to
+    'locations' in the registry, for example /CONFIG/SYSTEM: these are simply the folders
+    that you need to enter.
     
-      a. Faking Vita region | @T8A
+      Remember that the majority of registry modifications need a reboot to work.
+    
+      a. Changing your Vita username | @T8A
       ######################################################################################
       
-      Faking the Vita region will allow you to play out of region games (although the Vita
-     is regionfree in the first place) and, most importantly, for EU users, removes AVLS!!
-     
-      = HENkaku
-      = A hex editor 
-      
-      1. Dump system.dreg and system.ireg.
-      2. Open system.dreg with your hex editor. Search for a string saying "region_no"; one
-     line below, there should be a single byte with a number in a line of 00s. Modify it to match
-    your new region:
-      * 01 for Japan            * 07 for Australia
-      * 02 for America          * 08 for Hongkong
-      * 03 for Europe           * 09 for Taiwan
-      * 04 for Korea            * 0a for Russia
-      * 05 for United Kingdom   * 0d for China
-      * 06 for United Kingdom 2
-      All other values are invalid. Once done, FTP system.dreg back to your Vita.
+      Your Vita username is the one that is used when transferring to CMA and other things.
+     To change this setting, set /CONFIG/SYSTEM/username to your desired username.
     
-      b. Swapping X and O | @T8B
+      b. AVLS removal | @T8B
       ######################################################################################
       
-      Self explainatory: X becomes O and vice-versa.
+      A long awaited feature for EU users: the ability to finally disable AVLS (which enables
+     back after 20 hours on EU Vitas. To change this settting:
+      * Set /CONFIG/SOUND/avls to 0.
+      * Set /CONFIG/SOUND/avls_timer to 0.
+    
+      c. Swapping X and O | @T8C
+      ######################################################################################
       
-      = HENkaku
-      = A hex editor
+      Self explainatory: X becomes O and vice-versa. To change this setting, set
+     /CONFIG/SYSTEM/button_assign to 0: this will make O swap with X. To go back to the
+    default "X is enter" scheme, set it to 1.
       
-      1. Dump system.dreg and system.ireg.
-      2. Open system.dreg with your hex editor. Search for a string saying "button_assign"; one
-     line below, there should be a single byte with a number in a line of 00s. Modify it to match
-    your new button assignement:
-      * 00 makes O enter          * 01 makes X enter
-      All other values are invalid. Once done, FTP system.dreg back to your Vita.
-
-      c. Enabling Semi-Debug mode | @T8C
+      d. Enabling Semi-Debug mode | @T8D
       ######################################################################################
       
       Semi-Debug mode is a special mode for the Vita, allowing to display more detailed info
-     about bubbles.
+     about bubbles. To change this setting, set /CONFIG/NP/enable_np to 1.
+     
+      e. Disabling Standby and auto-dim | @T8E
+      ######################################################################################
       
-      = HENkaku
-      = A hex editor
-      
-      1. Dump system.dreg and system.ireg.
-      2. Open system.dreg with your hex editor. Search for a string saying "enable_np"; one
-     line below, there should be a single byte with a number in a line of 00s. Modify it to match
-    your new semi-debug mode status:
-      * 00 makes SDM  disabled    * 01 makes SDM enabled
-      All other values are invalid. Once done, FTP system.dreg back to your Vita.
+      When the Vita sits idle for a long period of time, it will go into standby (the same as
+     if you did a light POWER press.) It is possible to disable this, and as such, also
+    disable the dim that happens when the Vita is active with no input for a minute.
+    To change this setting, set /CONFIG/POWER_SAVING/suspend_interval to 0.
     
-      d. Changing AccountID - restore ANY Vita system backup | @T8D
+      f. Changing AccountID - restore ANY Vita system backup | @T8F
       ######################################################################################
       
       The AccountID is a single 16 byte hex string located in your registry. In particular, it
@@ -492,8 +479,7 @@
      Repeat the process for each new account.
 
       How do you switch the accounts? Simply replace these four files with the ones of your
-     desired account. You can do this directly with molecularShell or VitaShell, as both allow
-    writing to this location.
+     desired account. You can do this directly with molecularShell.
 
       a. Account swap via AccountID change | @T9A
       ######################################################################################
@@ -697,11 +683,7 @@
       * xyz for vita-idu.
       * molecule for an awesome exploit, and their great work on the Vita scene.
       * All the Github contributors:
-<<<<<<< HEAD
       xy2_ (32)
-=======
-      xy2_ (31)
->>>>>>> 13594be32d8932ab474d09f1c9a36a66fd3c0676
       robflop (1)
       
       I do not accept donations; direct them towards devs who make the scene the way it is.
