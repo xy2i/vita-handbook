@@ -180,7 +180,7 @@
      display on the lower left corner of the screen. From there, simply wait for the install to
     finish; the browser will close automatically.
       3. A new bubble called "molecularShell" will appear, granting full 
-	 access to the filesystem.
+     access to the filesystem.
      
       Each time you power off your Vita, you will need to install HENkaku again. As this
      can be a frustating process, I recommend not powering off your Vita - ever - unless it
@@ -374,7 +374,7 @@
       3. Type in the IP address and port of your Vita, they should be displayed on screen.
       4. Select the folder of your custom theme.
       5. Click "Install Custom theme" and wait until it has finished. You can now use the 
-	 theme as an official theme.
+	theme as an official theme.
       
       Some useful info: all information is contained in theme.xml. You can open it via any
      text editor. Once here, you can modify all information about the theme as well, including
@@ -389,7 +389,7 @@
      and here app.db is the LiveArea database, allowing you to customise bubble BGs and icons,
     which icons show up or not, etc. This is an online tool; to use it, follow the link below.
       https://anthe.studio/bubblestudio/
-                                                                 
+
        8. Registry editing: advanced Vita manipulation | @T8
        ######################################################################################
        
@@ -514,13 +514,13 @@
       * vd0:registry/system.ireg  * ux0:id.dat
       (For more experienced users: you don't actually need to backup id.dat. id.dat is a file
      which contains information about your Vita, and if it doesn't match with the registry 
-	it will ask you to format the memory card: you can simply delete it on each time
-	you change account instead.
+     it will ask you to format the memory card: you can simply delete it on each time
+     you change account instead.
       2. Format your Vita and sign in with your new account, then backup these files again.
      Repeat the process for each new account.
 
       How do you switch the accounts? Simply replace these four files with the ones of your
-     desired account. You can do this directly with molecularShell.
+     desired account. You can do this directly with HENkaku.
 
       a. Account swap via AccountID change | @T9A
       ######################################################################################
@@ -636,7 +636,7 @@
      retail Vita, giving it several extra functionalities:
       * Content Downloader - download & install .pkg and .pup files from a remote website
       * ★Package Installer - install pre-downloaded .pkg files (Content Downloader outclasses
-    this)
+     this)
       * Ignore id.dat - this means you can swap memory cards without having to do any
      modifications
       * No standby - by default, an IDU vita does not standby (you can change this in settings);
@@ -724,7 +724,7 @@
       * xyz for vita-idu.
       * molecule for an awesome exploit, and their great work on the Vita scene.
       * All the Github contributors:
-      xy2_ (39)
+      xy2_ (41)
       robflop (1)
       
       I do not accept donations; direct them towards devs who make the scene the way it is.
