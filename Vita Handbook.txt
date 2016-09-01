@@ -38,7 +38,7 @@
      regrouping a vast list of tutorials, hence the name "handbook". In the current state of the
     scene, there is no end goal for hacking the Vita, but simply a collection of tricks that you
     are able to execute (as well as the ability to install various homebrew and emulators.) This
-    is why the handbookk was made with the intent to be nonlinear, and that one can follow any
+    is why the handbook was made with the intent to be nonlinear, and that one can follow any
     tutorial this offers based on their need. 
 
       GET A 3.60 VITA IF YOU WANT TO FOLLOW THIS GUIDE. IF LOWER FIRMWARE, UPDATE TO 3.60. IF 
