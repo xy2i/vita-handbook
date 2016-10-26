@@ -1,6 +1,6 @@
 
-                    /:- `                             ASCII art by xy2_
-              `:+//:/+++sdd  sso+/:- `                   (Width of this guide is 98 characters;  
+                    /:- `                             ASCII art by xy2_                         
+              `:+//:/+++sdd  sso+/:- `                   (Width of this guide is 98 characters; 
             /+::+/++dddddddddddddddddd   o+/:- `             with TAB set to 4 character space. 
          : mmmddddddmmmmm       ddddddddddddd   so/:- ``         Configure your reader to fit   
        - mmdmmmmmmmmmmmmd _/_ /        dddddddddddd    so+/:- `           for optimal reading.) 
@@ -29,17 +29,17 @@
                                                      ` ` -/+o  mmmmmmmmmN_____NNmm +-           
                                                                 ` :/+sssssssssso+:              
                                                                                                 
-                _/_          /       _/_                                                    
+                _/_          /       _/_                                                        
         o  __   /   _   _  _/ . .  _./  o  _  __ 
         <_/ / <_<__/ (_(_)(_/_(_/_(__<__<_(_)/ / @I
         _________________________________________________________________________________________
         
       The Vita Handbook is a guide aimed at being a comprehensive, in depth and offline resource
-     regrouping a vast list of tutorials, hence the name "handbook". In the current state of the
-    scene, there is no end goal for hacking the Vita, but simply a collection of tricks that you
-    are able to execute (as well as the ability to install various homebrew and emulators.) This
-    is why the handbook was made with the intent to be nonlinear, and that one can follow any
-    tutorial this offers based on their need. 
+     regrouping a vast list of tutorials, no matter their obscurity, hence the name "handbook". 
+    In the current state of the scene, there is no end goal for hacking the Vita, but simply a 
+    collection of tricks that you are able to execute (as well as the ability to install various
+    homebrew and emulators.) This is why the handbook was made with the intent to be nonlinear,
+    and that one can follow any tutorial this offers based on their need. 
 
       GET A 3.60 VITA IF YOU WANT TO FOLLOW THIS GUIDE. IF LOWER FIRMWARE, UPDATE TO 3.60. IF 
      HIGHER FIRMWARE, YOU ARE SCREWED, THERE IS NO DOWNGRADE.
@@ -57,7 +57,8 @@
 
       This guide is also navigatable fully offline. Clone the repo with this link:
      https://github.com/xy2iii/vita-handbook.git then open Vita Handbook.txt in your favorite
-    text editor (under *nix or OSX vim/emacs is recommended, or if under Windows, Notepad++).
+    text editor (under *nix or OSX vim/emacs is recommended, or if under Windows, gvim or 
+    Notepad++).
                      _                                             
         _/_      /  //         /)               _/_         _/_   
         /  __.  /__// _    _  //    _. _  __    /  _  __    /  _  
@@ -144,7 +145,7 @@
        2. Go into airplane mode and restart your Vita (just in case).
        3. Launch QCMA and plug your Vita via USB.
        4. From "Settings", select "System Update", then "Update from PC."
-       5. Check that the update says "Firmware 3.60" and NOTHING ELSE, then update your Vita.
+       5. Check that the update says "Firmware 3.60 and NOTHING ELSE, then update your Vita.
        
       a. Alternative - PSTV 3.60 update | @T2A
       ######################################################################################
@@ -159,7 +160,7 @@
        3. Transfer "PSVUPDAT.PUP" to that folder.
        4. Turn off your PSTV, then reboot in Safe Mode by holding POWER for 7 seconds on startup.
        5. Select "Update System Software" then "Update to USB storage device".
-       6. Update.
+       6. Check that the update says "Firmware 3.60" and NOTHING ELSE, then update.
 
        3. HENkaku - Installing HENkaku and getting access to the Vita filesystem | @T3
        ######################################################################################
@@ -208,14 +209,15 @@
      [Filesystem Listing.txt] lists all the available files on a stock 3.30 Vita, which are all
     dumpable.
           
-      a. Using HENkaku as a Content Manager replacement for videos, pictures, music | @T3A
+      a. Using HENkaku to retrieve videos, pictures, music | @T3A
       ######################################################################################
       
        This is a simple trick, but the information is so important it deserves a separate
       tutorial. You might have noticed that HENkaku could access the Vita filesystem: does
      this mean you can use it as a replacement for CM? The answer is yes, although not
-     for games: you will still need to use CM for this. Note that this works in both directions:
-     you can both transfer and receive with this.
+     for games: you will still need to use CM for this. Note that this only works in one
+     direction: retrieving content. Adding content in these folders will not work, since they are
+     seemingly randomized.
      
        For pictures, screenshots are located at ux0:picture/SCREENSHOT/(lettered folders). Camera
       shots are located at ux0:picture/CAMERA/(lettered folders). Transferred content is under
@@ -490,10 +492,9 @@
        (_/|_(_/_\/(_/|_/ / <_(__</_(_/_   <__/ (_<_(__/ <_/_)_ @A
         _________________________________________________________________________________________
         
-      From this section onwards, tricks will get much more advanced and difficult to pull off.
-     While the tricks above could be done with simply being able to follow instructions, the next
-    will take some more skill to pull off. In short: do not do this if you don't know what you
-    are doing, and stick to instructions.
+      This section describes more difficult tricks that are not well known, but allow for more
+     more control over the Vita. They are more difficult to accomplish and it is not recommended
+    to do them without a reason.
 
        9. Account swap - host multiple accounts on a single memory card | @T9
        ######################################################################################
@@ -515,7 +516,7 @@
       (For more experienced users: you don't actually need to backup id.dat. id.dat is a file
      which contains information about your Vita, and if it doesn't match with the registry 
      it will ask you to format the memory card: you can simply delete it on each time
-     you change account instead.
+     you change account instead.)
       2. Format your Vita and sign in with your new account, then backup these files again.
      Repeat the process for each new account.
 
@@ -554,8 +555,11 @@
     proprietary Sony tool that has been linked, and so I won't share it here.
 
       Note that, using this method, it is also possible to reencrypt games, as well
-     as decrypt and reencrypt savedata. One last thing: because the eboot is protected by a
-    different method, piracy is not possible with this yet.
+     as decrypt and reencrypt savedata. Because the eboot is protected in a different way, 
+    piracy is not possible with this method. 
+    
+      This tutorial is kept for legacy purposes: for a simpler and faster way to dump decrypted
+     game contents, see @T10B.
 
       = HENkaku
       = A game, either digital or physical (gamecard)
@@ -628,7 +632,39 @@
      space!) or your desired homebrew. For homebrew, files can be found at ux0:app/(TitleID);
     transfer files in that folder.
       4. Launch your gamecard again, and your modded game or homebrew should now boot. 
- 
+
+      b. Dumping games with Mai - simpler game dumping | @T10B
+      ######################################################################################
+      
+      This is a simpler way of dumping games decrypted using Mai.
+
+      = HENkaku
+      = A game, either physical or digital
+
+      1. FTP and install MaiDumpTool [/MaiDumpTool.vpk] to your Vita.
+      2. Select "Extract/Decrypt content", then your desired game. Selection is done with O
+     (circle button.)
+      3. Select "Extract gamedata only (without decrypting eboot, the game won't boot).
+      4. After seeing "Setup complete" on screen, press O again to extract the game, and wait.
+     It will open the game's manual, then display the dumped files. Once done, Mai will return
+    to its main menu.
+    
+      You are now done with dumping. You can find the decrypted game contents in
+     ux0:mai/(TitleID). Repeat this process for your other games.
+
+      c. Dumping games with Mai - eboot decryption | @T10B
+      ######################################################################################
+
+      This method generates . It offers two main advantages:
+     
+      * the entire game is dumped, so the game is this time around playable, enabling piracy
+      * the desired game is ran as homebrew, enabling the use of custom .suprx plugins, and
+       allowing reduction of its size
+
+      However, the main disadvantage is that the eboot is dumped in a hacky way (in order to make
+     the game playable as homebrew). Furthermore, the generated dumps can only be installed with
+    Mai.
+
        11. IDU mode - Enable Content Downloader and various other tweaks | @T11
        ######################################################################################
 
@@ -730,3 +766,5 @@
       I do not accept donations; direct them towards devs who make the scene the way it is.
      If you have downloaded this guide or its archive via any mirrors, the source is fully
     available at https://github.com/xy2iii/vita-handbook for anyone to modify.
+
+ vim:tw=98:ts=4:sw=4:softtabstop=4:expandtab:smarttab:autoindent
