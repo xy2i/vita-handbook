@@ -1,2 +1,5 @@
-# vita-handbook
-The Vita Handbook is a comprehensive offline Vita hacking guide. It aims at helping users get the best out of their Vita handheld. [Click here to read and download!](https://github.com/xy2iii/vita-handbook/blob/master/Vita%20Handbook.txt)
+# THIS REPOSITORY IS OBSOLETE.
+
+If you are looking for a Vita guide, check out Plailect & emiyl's [Vita Guide.](https://vita.hacks.guide/)
+
+If you still have an interest in this repository, you can find [the vita-handbook here.](https://github.com/xy2iii/vita-handbook/blob/master/Vita%20Handbook.txt)
